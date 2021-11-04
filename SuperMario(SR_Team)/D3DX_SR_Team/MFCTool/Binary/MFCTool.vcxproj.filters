@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.App">
+      <UniqueIdentifier>{317248e3-4e7e-4778-859f-7453a8d8d1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MainFrm">
+      <UniqueIdentifier>{ad5841d9-d7dd-40aa-8a27-33e73a52055c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Doc">
+      <UniqueIdentifier>{aa1d21dc-3ec4-4c20-b95c-c588f3ef9467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream">
+      <UniqueIdentifier>{e56cccfd-aba4-421c-a6af-74c1f6a610b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{d965e1aa-0745-4908-893f-735a0c6d2002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\00.View">
+      <UniqueIdentifier>{7a43e182-74c9-4108-9c3f-0b13baffdbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\01.Form">
+      <UniqueIdentifier>{c6acad97-36f6-4519-8ef7-5964376e5647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\02.Tap">
+      <UniqueIdentifier>{c85a8041-d132-488d-bf7b-bc4775184f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\02.Tap\01.Tap02">
+      <UniqueIdentifier>{baf9eb1c-33f2-4da8-8b3c-eec0084e12c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{e5262d9d-29ef-4125-82b2-85e2f9612b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.Header">
+      <UniqueIdentifier>{67de88e3-f390-47df-8d4c-8b93699d8fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\02.Tap\02.Tap03 이펙트 툴">
+      <UniqueIdentifier>{5d1369ab-dd93-47d8-aafc-866aa9e58472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\02.Tap\00.Tap01_MapTool">
+      <UniqueIdentifier>{3b400989-1b66-49d5-928c-24aa081f9acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\02.FileInfo">
+      <UniqueIdentifier>{55b17346-bda2-4208-ae43-6fe385040e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client">
+      <UniqueIdentifier>{4cdc73ce-86f0-4f0d-a085-0a990f44ce53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client\00.MainTool">
+      <UniqueIdentifier>{93483e42-0bc0-4469-bb9e-a3e58423539f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client\01.GameObj">
+      <UniqueIdentifier>{fbd2b3e9-d7da-436a-8f7b-23070a84dbaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client\01.GameObj\00.Plate">
+      <UniqueIdentifier>{b5b16e8c-0910-4ab8-9539-54a726666998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine">
+      <UniqueIdentifier>{96b6fca3-dd21-45ec-97e3-3039feac18ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\00.System">
+      <UniqueIdentifier>{40d88287-ab0b-4ef9-948c-2ecba6388f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\00.System\04.TimeMgr">
+      <UniqueIdentifier>{4b04934f-695c-4238-999a-4aebb4055ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility">
+      <UniqueIdentifier>{9531e950-ea57-448e-957d-28d753878976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\99.PipelineStaticsTool">
+      <UniqueIdentifier>{26937711-74bd-4ada-8cda-d9cab3c19899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\01.GameObjMgr">
+      <UniqueIdentifier>{69bd79bd-0856-4774-bf5c-38d422f893d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\01.GameObjMgr\GameObj">
+      <UniqueIdentifier>{fe2c0e36-e632-40db-9f58-5738d82c679a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\00.ManagementTool">
+      <UniqueIdentifier>{4854098d-4165-4f07-be00-22182d826139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool">
+      <UniqueIdentifier>{5bfc2370-c8d0-4a8c-9d21-da6cbb566d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool">
+      <UniqueIdentifier>{7d603979-1ef5-4e1e-9d92-be1fbdae8fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\00.ComponentMgr">
+      <UniqueIdentifier>{74d440b1-4d73-4e34-b026-e675a5f90376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\02.TransformTool">
+      <UniqueIdentifier>{ac45e927-5862-4205-b77b-811b511df4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\03.TextureTool">
+      <UniqueIdentifier>{bd059d35-bae4-461e-803a-881baa7b3acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\00.VIBuffer_Plate">
+      <UniqueIdentifier>{177aa77d-4897-4354-97ca-f554d5454751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\01.VIBuffer_PlateTexture">
+      <UniqueIdentifier>{fbf8580d-df33-47e6-95f3-a4e4a6a7ba9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\02.VIBuffer_CubeColor">
+      <UniqueIdentifier>{21614322-884c-43ab-a48c-84bdc8f6058a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client\01.GameObj\01.CubeColor">
+      <UniqueIdentifier>{fd135f9b-068a-4a52-a5b1-229aee541867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\02.Tap\03.Tap04 맵 툴">
+      <UniqueIdentifier>{c270ab72-3fa4-4581-b54d-9891afb89d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client\01.GameObj\03.CubeLine">
+      <UniqueIdentifier>{27950e04-83b3-4a98-a94e-a9295ca90021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client\01.GameObj\02.CubeTexture">
+      <UniqueIdentifier>{9b179cc2-58b8-45fc-bce7-fc9dd5cc08df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\03.VIBuffer_CubeTexture">
+      <UniqueIdentifier>{c3123b5b-8116-4d85-9f4f-40cbf320b751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\04.VIBuffer_CubeLine">
+      <UniqueIdentifier>{76d7cb3f-9432-4811-a3a3-8a672f585dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client\01.GameObj\04.SliderColor">
+      <UniqueIdentifier>{d8ac9cee-3525-4d76-9783-5a883fdea109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\05.VIBuffer_SliderColorTool">
+      <UniqueIdentifier>{7ddc4598-4dc4-4272-bca9-d15f22ae8954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\00.Client\01.GameObj\05.BoxColorHan">
+      <UniqueIdentifier>{549efeaa-796f-4ca2-a8ca-f34297697e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SystemStream\01.SimEngine\00.System\00.RandomMgr">
+      <UniqueIdentifier>{8b56be4e-0f2e-4f52-bbc6-a895f20c6431}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>01.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCTool.h">
+      <Filter>00.App</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCToolDoc.h">
+      <Filter>02.Doc</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCToolView.h">
+      <Filter>03.View\00.View</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainTool.h">
+      <Filter>04.SystemStream\00.Client\00.MainTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ManagementTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\00.ManagementTool</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Tap01.h">
+      <Filter>03.View\02.Tap\00.Tap01_MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tap02.h">
+      <Filter>03.View\02.Tap\01.Tap02</Filter>
+    </ClInclude>
+    <ClInclude Include="Tap03.h">
+      <Filter>03.View\02.Tap\02.Tap03 이펙트 툴</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Client_Define.h">
+      <Filter>99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tap04.h">
+      <Filter>03.View\02.Tap\03.Tap04 맵 툴</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormView.h">
+      <Filter>03.View\01.Form</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>04.SystemStream\02.FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ComponentTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TimeMgr.h">
+      <Filter>04.SystemStream\01.SimEngine\00.System\04.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObjMgr.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\01.GameObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TransformTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\02.TransformTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ComponentMgr.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\00.ComponentMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\PipelineStaticsTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\99.PipelineStaticsTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer_Plate.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\00.VIBuffer_Plate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBufferTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Plate.h">
+      <Filter>04.SystemStream\00.Client\01.GameObj\00.Plate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObj.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\01.GameObjMgr\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TextureTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\03.TextureTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer_PlateTexture.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\01.VIBuffer_PlateTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer_CubeColorTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\02.VIBuffer_CubeColor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CubeColor.h">
+      <Filter>04.SystemStream\00.Client\01.GameObj\01.CubeColor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer_CubeTextureTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\03.VIBuffer_CubeTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CubeTexture.h">
+      <Filter>04.SystemStream\00.Client\01.GameObj\02.CubeTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CubeLine.h">
+      <Filter>04.SystemStream\00.Client\01.GameObj\03.CubeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer_CubeLineTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\04.VIBuffer_CubeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SliderColor.h">
+      <Filter>04.SystemStream\00.Client\01.GameObj\04.SliderColor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer_SliderColorTool.h">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\05.VIBuffer_SliderColorTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BoxColor.h">
+      <Filter>04.SystemStream\00.Client\01.GameObj\05.BoxColorHan</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMgr.h">
+      <Filter>04.SystemStream\01.SimEngine\00.System\00.RandomMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCTool.cpp">
+      <Filter>00.App</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCToolDoc.cpp">
+      <Filter>02.Doc</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormView.cpp">
+      <Filter>03.View\01.Form</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCToolView.cpp">
+      <Filter>03.View\00.View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainTool.cpp">
+      <Filter>04.SystemStream\00.Client\00.MainTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ManagementTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\00.ManagementTool</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>01.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap01.cpp">
+      <Filter>03.View\02.Tap\00.Tap01_MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap02.cpp">
+      <Filter>03.View\02.Tap\01.Tap02</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap03.cpp">
+      <Filter>03.View\02.Tap\02.Tap03 이펙트 툴</Filter>
+    </ClCompile>
+    <ClCompile Include="Tap04.cpp">
+      <Filter>03.View\02.Tap\03.Tap04 맵 툴</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>04.SystemStream\02.FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ComponentTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TimeMgr.cpp">
+      <Filter>04.SystemStream\01.SimEngine\00.System\04.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObjMgr.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\01.GameObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TransformTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\02.TransformTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ComponentMgr.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\00.ComponentMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PipelineStaticsTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\99.PipelineStaticsTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer_Plate.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\00.VIBuffer_Plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBufferTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Plate.cpp">
+      <Filter>04.SystemStream\00.Client\01.GameObj\00.Plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObj.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\01.GameObjMgr\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TextureTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\03.TextureTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer_PlateTexture.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\01.VIBuffer_PlateTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer_CubeColorTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\02.VIBuffer_CubeColor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CubeColor.cpp">
+      <Filter>04.SystemStream\00.Client\01.GameObj\01.CubeColor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer_CubeTextureTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\03.VIBuffer_CubeTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CubeTexture.cpp">
+      <Filter>04.SystemStream\00.Client\01.GameObj\02.CubeTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CubeLine.cpp">
+      <Filter>04.SystemStream\00.Client\01.GameObj\03.CubeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer_CubeLineTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\04.VIBuffer_CubeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SliderColor.cpp">
+      <Filter>04.SystemStream\00.Client\01.GameObj\04.SliderColor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer_SliderColorTool.cpp">
+      <Filter>04.SystemStream\01.SimEngine\01.Utility\02.ComponentTool\01.VIBufferTool\05.VIBuffer_SliderColorTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BoxColor.cpp">
+      <Filter>04.SystemStream\00.Client\01.GameObj\05.BoxColorHan</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMgr.cpp">
+      <Filter>04.SystemStream\01.SimEngine\00.System\00.RandomMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCTool.rc">
+      <Filter>98.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCTool.rc2">
+      <Filter>98.Default\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCToolDoc.ico">
+      <Filter>98.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\MFCTool.ico">
+      <Filter>98.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>98.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+    <Text Include="Tag모음.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMainApp" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKCBAAsCiEAAAAHAAKEBABAAAAAgEaATAEAAIUACAM=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MainApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogo" Collapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAIAAgAACAAAAEAAAAAAAAACAII=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Logo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStage01" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgIAAACAAAKAAAAKgAAAAiAABQEAAAACAIIACAgI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Stage01.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLoading" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACSAAIIAAAAAAgAAAAAAAAgAAAgBAEIABAABAAFAAAI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Loading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattleStageA" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICxAAAACAAAAAAQAqAAAABAAAAAEAAAAgAAAACAgI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattleStageA.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStage02" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAAAAAAKgAEAAAAAAAEAAAAAAIIACAAI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Stage02.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestStage" Collapsed="true">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAASBgAAKgAAAAiAABQEAAAAAAAIACAgI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\TestStage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestCamera" Collapsed="true">
+    <Position X="22.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAEAAAAAIAABAAAAAAgAAQABEAAAAAggAAAEBI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\TestCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainCamera" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAEAAAAQIAABAAAAAAAAAQAAEAAAAAggAAAEBM=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MainCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattleCamera" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MiAAIJAEAAAAAIAABBAAEAAAAAQAAEAAAAAggkAAEBI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattleCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer" Collapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAIoDIAAgQEAIAEFggACAEASIIhEEAAQAAiiAAgQBI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSuperMonster" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAYAAAAAgEAIBAAgAAAAQACAIAABAAQAAggAAAABo=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\SuperMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonsterA" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAABAAIAABAAAAAAAAIABEEAAAAAiwAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MonsterA.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonsterB" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAABAAIAABAAAAAAAAIABEEAAAAAioAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MonsterB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonsterC" Collapsed="true">
+    <Position X="14.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAIAIAAABAAIAABAAAAAAAAIABEEAAAAAikAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MonsterC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonsterD" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAABAAIAABAAAAAAAAAAAEEAAAAAiiAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MonsterD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonsterE" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAABAAIAABAAAAAAAAAAAEEAAAAAihAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MonsterE.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonster" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAACBAAIAABACAAAAAAAAAEEAAIAAigAIAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTerrain" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIEAAAAAAAQACQEAEECAAAAggAAAIBY=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Terrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkybox" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAEAAAIAABAAAAAAAKAAAAEAAAAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Skybox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattleUI" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGIAICMEGSCAAIAQAgAAQAAAChAAAEEAAAAggBAIABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattleUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattleUI_HP" Collapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIAAAgAAAAAAAAAAAMAAAEAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattleUI_HP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimerMark" Collapsed="true">
+    <Position X="27.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAACAAAIAAAAAAAAAACAgAAEIAAAAggAAEABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\TimerMark.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimerCount" Collapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\TimerCount.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CActionUIBackground" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAoAICACAAAIAAAAAAAAAACAAAAEAAAEgggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\ActionUIBackground.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRingCountBackground" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAIAKAACAAAIAAAAAAQAAACAAAAEAAAAEggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\RingCountBackground.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIFont" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAKAIAAAABgIAABAAAAAAgCAABEEAAAAAigAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\UIFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPaperUI" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAICACAAAIAAAAAAAAAACAAAAEAAIQAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\PaperUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStageCoin" Collapsed="true">
+    <Position X="27.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAACAAAIAAQQAAAAAACAAAAEAAIAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\StageCoin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStageHP" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAACAAAIAAAAAAAAAQKAAAAEAAIAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\StageHP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStageUI" Collapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIQIAEBAAAIAAAAAAAAQECAAAEEAAEAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\StageUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFireTriger" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAIAIAAAAAAIAABAABAAAACAAAEEAAAAAigAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\FireTriger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFlipPuzzle" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEIAIAIAAAAIAAAAAAAAAACAAAAEAAAAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\FlipPuzzle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattlePlateEffect" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABIAIAAAAAAIAAAAEAAAAACAggAAAIAAAggCAAABo=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlateEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattlePlateSelectCube" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIAAQAEAAAAACAAAAEAAAAAgoAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlateSelectCube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattlePlateCircle" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAIAIAAAAAAIAAAAAAAAAAKAAAAEEQAAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlateCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattlePlateSlide" Collapsed="true">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAgAgAAIAAAAAAAAAACAAAAEAAAAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlateSlide.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattlePlateSelectLine" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIAAAgEAAAAACAAAAEAAAAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlateSelectLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattlePlate" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgIZAaASgHAAIIBGEQADAAEGAEBAPCgBEigoFIwoRM=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMiddleBossA" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAiIAIAAAggAIAEAAAICAMACAABAEBAQBAgkAAAFBI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MiddleBossA.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMiddleBossB" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQCJAIAhIAAQIEAAAIEGAAACIABAEgAQAIkgAAABBI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Desktop\New\GameClient\Headers\MiddleBossB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMiddleBossABullet" Collapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQgMAIEAAAACIABAIAAAACACAAAAEBAAABggAAAEJo=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MiddleBossABullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffecter" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAIAIACACAAIAAABAEAIAAAAAAAEAAAoChgAAAEBI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Effecter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffectParticle" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgpQoAAAAAEKKwQwiAAASgCEoEJEhAQIBwpEAIIhI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\EffectParticle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffectParticle2" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAYAAAAAAAAAgCAAAAEAAAAAggAAAABY=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\EffectParticle2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBattleStageB" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattleStageB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDropGoomba" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAoAJEAACAAoAAAAAAAAAACAAAAEAACABgoAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\DropGoomba.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffectFire" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIIAAAAAIAAAAAAAAgEAAAAAEAAEAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\EffectFire.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffectPaper" Collapsed="true">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAACAIAAAAAAAAgQAAAAAEAAAAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\EffectPaper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonsterTest" Collapsed="true">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIEAAAAAIAABAAAAAAAAAAAEEAAAAEigAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MonsterTest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayerBullet" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIAAAAIAAAAACAAAAEAAAABggAAAADI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\PlayerBullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkyBoxForBattle" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAIAAAAAAIAABAAAAAAACAAAAEAAAIAggAABABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\SkyBoxForBattle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTurnLabel" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAMAIASCAAAIAAAAAAAAAACAAgAEABAAAggAAAABI=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\TurnLabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ESceneType" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAAAkAAAAAAAAACAAAAAAAAAAEAAgAAgAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Client_Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlayerAni" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAFAAAAAAIAAAAAAAAgAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Client_Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STATE" Collapsed="true">
+    <Position X="25.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAiIAIhBAAAAQAAAgAIAAAABAAAEAAAACBEQAIgAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Client_Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EBattlePlateEffect" Collapsed="true">
+    <Position X="20.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAQAACAAACAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EPosisition" Collapsed="true">
+    <Position X="27.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EModeType" Collapsed="true">
+    <Position X="25.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EWeaponType" Collapsed="true">
+    <Position X="20.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAEAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EBattleState" Collapsed="true">
+    <Position X="22.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAQAAAEAAAAQgAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\BattlePlate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BOSSASTATE" Collapsed="true">
+    <Position X="17" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MiddleBossA.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MIDDLEBOSS_B_STATE" Collapsed="true">
+    <Position X="22.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Desktop\New\GameClient\Headers\MiddleBossB.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BULLETTYPE" Collapsed="true">
+    <Position X="18.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAgAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\MiddleBossABullet.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EFFECT_ENUM" Collapsed="true">
+    <Position X="24" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAIAAAQAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\Effecter.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETurnState" Collapsed="true">
+    <Position X="18.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAMAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\rockandrollcake\Jusin_SR\D3DX_SR_Team\GameClient\Headers\TurnLabel.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,76 @@
+﻿  Terrain.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  TurnLabel.cpp
+  TriggerBox.cpp
+  Tree.cpp
+  TimerMark.cpp
+  TestCamera.cpp
+  Teleporter.cpp
+  SupportCam.cpp
+  StageHP.cpp
+  StageCoin.cpp
+  Stage02_For_Clone.cpp
+  Stage02.cpp
+  Stage01_For_Clone.cpp
+  Skybox.cpp
+  SkyBoxForBattle.cpp
+  RingCountBackground.cpp
+  Player_For_Logic.cpp
+  Player_For_Clone.cpp
+  Player_For_2DLogic.cpp
+  PlayerBullet.cpp
+  Player.cpp
+  코드를 생성하고 있습니다...
+c:\users\administrator.jusin-20210127w\documents\jusin_sr\d3dx_sr_team\gameclient\codes\player_for_logic.cpp(18): warning C4715: 'CPlayer::KeyCheck': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  PaperUI.cpp
+  OpeningUI.cpp
+  OSCamera.cpp
+  MonsterTest.cpp
+  MonsterE.cpp
+c:\users\administrator.jusin-20210127w\documents\jusin_sr\d3dx_sr_team\gameclient\codes\monstere.cpp(124): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator.jusin-20210127w\documents\jusin_sr\d3dx_sr_team\gameclient\codes\monstere.cpp(128): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MonsterD.cpp
+  MonsterCBullet.cpp
+  MonsterC.cpp
+c:\users\administrator.jusin-20210127w\documents\jusin_sr\d3dx_sr_team\gameclient\codes\monsterc.cpp(81): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MonsterB.cpp
+  MonsterA.cpp
+  MiddleBossA_For_Logic.cpp
+  MiddleBossABullet.cpp
+  MiddleBossA.cpp
+  MainCamera.cpp
+  Gress.cpp
+  FlipPuzzle.cpp
+  FireTriger.cpp
+  FakeTerrain.cpp
+  Effecter.cpp
+  EffectParticle.cpp
+c:\users\administrator.jusin-20210127w\documents\jusin_sr\d3dx_sr_team\gameclient\codes\effectparticle.cpp(423): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  DropGoomba.cpp
+  Coin.cpp
+  BattleUI.cpp
+  BattleStageA_For_Clone.cpp
+  BattleStageA.cpp
+  BattlePlateSlide.cpp
+  BattlePlateSelectLine.cpp
+  BattlePlateSelectCube.cpp
+  BattlePlateEffect.cpp
+  BattlePlateCircle.cpp
+c:\users\administrator.jusin-20210127w\documents\jusin_sr\d3dx_sr_team\gameclient\codes\battleplatecircle.cpp(40): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator.jusin-20210127w\documents\jusin_sr\d3dx_sr_team\gameclient\codes\battleplatecircle.cpp(41): warning C4244: '인수': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BattlePlate.cpp
+  BattleMonster.cpp
+  BattleCamera.cpp
+  ActionUIBackground.cpp
+  코드를 생성하고 있습니다...
+c:\users\administrator.jusin-20210127w\documents\jusin_sr\d3dx_sr_team\gameclient\codes\dropgoomba.cpp(138): warning C4715: 'CDropGoomba::Add_Component': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  UIFont.cpp
+  Stage01.cpp
+  Monster.cpp
+  코드를 생성하고 있습니다...
+  GameClient.vcxproj -> C:\Users\Administrator.JUSIN-20210127W\Documents\Jusin_SR\D3DX_SR_Team\GameClient\Includes\../Binary/GameClient.exe
+  GameClient.vcxproj -> ../Binary/GameClient.pdb (Full PDB)

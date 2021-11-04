@@ -1,0 +1,29 @@
+좌우로 움직이는 굼바 2초마다 방향 바뀌게했음, 마우스 클릭 시 방향 바뀜.- MonsterE.Cpp
+
+떨어지는 코인은 08.Item 폴더에 Coin.cpp 있습니다. 그리고 생성 되는 과정은. 몬스터 C에  70번재쭐에
+몬스터 죽었을 경우 	이렇게 생성되도록했음.	
+			for (int i = 0; i < 5; ++i)
+			{
+
+				CGameObject* pObj = pManagement->Clone_GameObject_For_Load(
+					(_uint)ESceneType::Static,
+					L"GameObject_Item_Coin",
+					(_uint)ESceneType::TestStage,
+					L"Layer_Item_Coin"
+				);
+
+				_float3 vMonsterPos = m_pTransformCom->Get_Position();
+				dynamic_cast<CCoin*>(pObj)->Set_Pos(_float3(vMonsterPos.x + (i * 0.2), vMonsterPos.y + (i * 0.2f), vMonsterPos.z));
+			}
+
+UI
+02.StageUiComp -> StageUI.cpp안에서 한번에 하위애들인 PaperUI, StageCoinUI, HPBarUI등, 한번에 돌리도록 해뒀음. 현재는 코인만 필요해서 주석처리해둠.
+00.PaperUI는 종이 뿌리기용이였으나, 사용안할듯,
+02.HpBarUI<< HP바로 사용 될 예정인데. 현재 리소스추가 안했음. 일단은 코인만 띄워둔 상태
+
+폴더안에 01.CoinUI에 있음 << 코인 UI.
+Render_GameObject()안에있는 89번째줄에서 크기랑 위치로 조정할수있음.
+현재 카메라를 pCamera에 담아서 그 카메라의 상태를 직교투영으로 바꾸는것 pCamera->Set_Ortho_For_UI()
+
+
+03.Terrain 안에. GressTree 만듦

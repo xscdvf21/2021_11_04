@@ -1,0 +1,4 @@
+﻿  GameObject.cpp
+     ./Binary/SR_Engine.lib 라이브러리 및 ./Binary/SR_Engine.exp 개체를 생성하고 있습니다.
+  SR_Engine.vcxproj -> C:\Users\Administrator.JUSIN-20210127W\Documents\Jusin_SR\D3DX_SR_Team\SR_Engine\./Binary/SR_Engine.dll
+  SR_Engine.vcxproj -> ./Binary/SR_Engine.pdb (Full PDB)
