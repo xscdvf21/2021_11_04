@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B0E666D9-372A-4976-947A-7A8DABA14BE5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include;../../Reference/Header/include;../../Reference/Header/include/geometry;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\lib\x64;PATH=$(ProjectDir)..\lib\x64;%PATH;../../Reference/PxLibrary/Debug/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include;../../Reference/Header/include;../../Reference/Header/include/geometry;$(IncludePath);$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\lib\x64;PATH=$(ProjectDir)..\lib\x64;%PATH;../../Reference/PxLibrary\Release/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;../Code;../Header;../../Base;../../Reference/Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;System.lib;Resources.lib;Utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;../Code;../Header;../../Base;../../Reference/Header;../../inc;../../lib/x64;../../Reference/Header/include/geometry;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Library</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;System.lib;Resources.lib;Utility.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXFoundation_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;../Code;../Header;../../Base;../../Reference/Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;System.lib;Resources.lib;Utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>./;../Code;../Header;../../Base;../../Reference/Header;../../inc;../../lib/x64;../../Reference/Header/include/geometry;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Library</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;System.lib;Resources.lib;Utility.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXFoundation_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\AirFlowMeter.h" />
+    <ClInclude Include="..\Code\Arbalist.h" />
+    <ClInclude Include="..\Code\Arrow.h" />
+    <ClInclude Include="..\Code\BaboonBomb.h" />
+    <ClInclude Include="..\Code\BaboonBombUpBullet.h" />
+    <ClInclude Include="..\Code\BaboonGround.h" />
+    <ClInclude Include="..\Code\BaboonHitPoint.h" />
+    <ClInclude Include="..\Code\BaboonLaser.h" />
+    <ClInclude Include="..\Code\BandSaw.h" />
+    <ClInclude Include="..\Code\BatteryBox.h" />
+    <ClInclude Include="..\Code\BigPlug.h" />
+    <ClInclude Include="..\Code\BiShopMoveBullet.h" />
+    <ClInclude Include="..\Code\BiShopStopBullet.h" />
+    <ClInclude Include="..\Code\Blow.h" />
+    <ClInclude Include="..\Code\BoundingBox.h" />
+    <ClInclude Include="..\Code\CameraSpace.h" />
+    <ClInclude Include="..\Code\ChessBossDoor.h" />
+    <ClInclude Include="..\Code\ChessDuoDoor.h" />
+    <ClInclude Include="..\Code\CircleSaw.h" />
+    <ClInclude Include="..\Code\CodyAnimEnum.h" />
+    <ClInclude Include="..\Code\CodyWizard_IceOrbAtt.h" />
+    <ClInclude Include="..\Code\CodyWizard_IceOrbAttRB.h" />
+    <ClInclude Include="..\Code\Cody_Space.h" />
+    <ClInclude Include="..\Code\Cody_Space_AnimEnum.h" />
+    <ClInclude Include="..\Code\Cog.h" />
+    <ClInclude Include="..\Code\Cogs.h" />
+    <ClInclude Include="..\Code\Cone.h" />
+    <ClInclude Include="..\Code\Cord.h" />
+    <ClInclude Include="..\Code\Crusher.h" />
+    <ClInclude Include="..\Code\CrusherBreakWall.h" />
+    <ClInclude Include="..\Code\CrusherBridge.h" />
+    <ClInclude Include="..\Code\CrusherBridgeBase.h" />
+    <ClInclude Include="..\Code\CrusherBridgeHolder.h" />
+    <ClInclude Include="..\Code\BubbleUI.h" />
+    <ClInclude Include="..\Code\CenterHatch.h" />
+    <ClInclude Include="..\Code\ChessBishop.h" />
+    <ClInclude Include="..\Code\ChessBoss.h" />
+    <ClInclude Include="..\Code\ChessBridge.h" />
+    <ClInclude Include="..\Code\ChessDoorSwitch.h" />
+    <ClInclude Include="..\Code\ChessDoorSwitchFrame.h" />
+    <ClInclude Include="..\Code\ChessField.h" />
+    <ClInclude Include="..\Code\ChessKing.h" />
+    <ClInclude Include="..\Code\ChessKnight.h" />
+    <ClInclude Include="..\Code\ChessOpenDoor.h" />
+    <ClInclude Include="..\Code\ChessPawn.h" />
+    <ClInclude Include="..\Code\ChessQueen.h" />
+    <ClInclude Include="..\Code\ChessRail.h" />
+    <ClInclude Include="..\Code\ChessRook.h" />
+    <ClInclude Include="..\Code\ChessTile.h" />
+    <ClInclude Include="..\Code\ChessTrab.h" />
+    <ClInclude Include="..\Code\Client_Function.h" />
+    <ClInclude Include="..\Code\Cody.h" />
+    <ClInclude Include="..\Code\CodyCamera.h" />
+    <ClInclude Include="..\Code\CodyDoll.h" />
+    <ClInclude Include="..\Code\CodyWizard_Animation.h" />
+    <ClInclude Include="..\Code\Cody_Wizard.h" />
+    <ClInclude Include="..\Code\CollisionMgr.h" />
+    <ClInclude Include="..\Code\ControllerCallback.h" />
+    <ClInclude Include="..\Code\CrossBow.h" />
+    <ClInclude Include="..\Code\CrusherStartDoor.h" />
+    <ClInclude Include="..\Code\DeadSpace.h" />
+    <ClInclude Include="..\Code\Dumbbell.h" />
+    <ClInclude Include="..\Code\Earth.h" />
+    <ClInclude Include="..\Code\Ending.h" />
+    <ClInclude Include="..\Code\Enermy.h" />
+    <ClInclude Include="..\Code\Escape_Shuttle.h" />
+    <ClInclude Include="..\Code\Escape_ShuttleRamp.h" />
+    <ClInclude Include="..\Code\FadeUI.h" />
+    <ClInclude Include="..\Code\Fan.h" />
+    <ClInclude Include="..\Code\FanButton.h" />
+    <ClInclude Include="..\Code\FanHolder.h" />
+    <ClInclude Include="..\Code\FerrisWheelBody.h" />
+    <ClInclude Include="..\Code\FerrisWheelModule.h" />
+    <ClInclude Include="..\Code\FireSwirl.h" />
+    <ClInclude Include="..\Code\FireSwordEffect.h" />
+    <ClInclude Include="..\Code\FuseBox.h" />
+    <ClInclude Include="..\Code\FuseLight.h" />
+    <ClInclude Include="..\Code\FuseNPC.h" />
+    <ClInclude Include="..\Code\FuseStatic.h" />
+    <ClInclude Include="..\Code\CrusherHitPoint.h" />
+    <ClInclude Include="..\Code\GeneratorBattery.h" />
+    <ClInclude Include="..\Code\GeneratorLever.h" />
+    <ClInclude Include="..\Code\GravityFloor.h" />
+    <ClInclude Include="..\Code\GrindStone.h" />
+    <ClInclude Include="..\Code\GroundBounce.h" />
+    <ClInclude Include="..\Code\GroundBouncePanel.h" />
+    <ClInclude Include="..\Code\GroundPoundBox.h" />
+    <ClInclude Include="..\Code\GroundPoundButton.h" />
+    <ClInclude Include="..\Code\HangDoor.h" />
+    <ClInclude Include="..\Code\HubPlatform.h" />
+    <ClInclude Include="..\Code\IceBullet.h" />
+    <ClInclude Include="..\Code\ImageUI.h" />
+    <ClInclude Include="..\Code\Knight.h" />
+    <ClInclude Include="..\Code\LaserMirror.h" />
+    <ClInclude Include="..\Code\Lever.h" />
+    <ClInclude Include="..\Code\LightObject.h" />
+    <ClInclude Include="..\Code\LineObject.h" />
+    <ClInclude Include="..\Code\Loading.h" />
+    <ClInclude Include="..\Code\Logo.h" />
+    <ClInclude Include="..\Code\LogoBack.h" />
+    <ClInclude Include="..\Code\Mage.h" />
+    <ClInclude Include="..\Code\Main.h" />
+    <ClInclude Include="..\Code\MainCamera.h" />
+    <ClInclude Include="..\Code\Map.h" />
+    <ClInclude Include="..\Code\May.h" />
+    <ClInclude Include="..\Code\MayAnimEnum.h" />
+    <ClInclude Include="..\Code\MayCamera.h" />
+    <ClInclude Include="..\Code\MayCastle_Animation.h" />
+    <ClInclude Include="..\Code\MayDoll.h" />
+    <ClInclude Include="..\Code\May_Castle.h" />
+    <ClInclude Include="..\Code\May_Space.h" />
+    <ClInclude Include="..\Code\May_Space_AnimEnum.h" />
+    <ClInclude Include="..\Code\Menu.h" />
+    <ClInclude Include="..\Code\MenuPlayerSelect.h" />
+    <ClInclude Include="..\Code\MenuSelect.h" />
+    <ClInclude Include="..\Code\MenuUI.h" />
+    <ClInclude Include="..\Code\MiniVacuum.h" />
+    <ClInclude Include="..\Code\MiniVacuumHead.h" />
+    <ClInclude Include="..\Code\MiniVacuumHub.h" />
+    <ClInclude Include="..\Code\BaboonMissile.h" />
+    <ClInclude Include="..\Code\MorningStar.h" />
+    <ClInclude Include="..\Code\Navi.h" />
+    <ClInclude Include="..\Code\Nozzle.h" />
+    <ClInclude Include="..\Code\Ogre.h" />
+    <ClInclude Include="..\Code\OgreChain.h" />
+    <ClInclude Include="..\Code\OgreStartDoor.h" />
+    <ClInclude Include="..\Code\OgreStone.h" />
+    <ClInclude Include="..\Code\Orb.h" />
+    <ClInclude Include="..\Code\PawnBullet.h" />
+    <ClInclude Include="..\Code\Pedestal.h" />
+    <ClInclude Include="..\Code\Player.h" />
+    <ClInclude Include="..\Code\PlayerValue.h" />
+    <ClInclude Include="..\Code\PosChange.h" />
+    <ClInclude Include="..\Code\PowerButton.h" />
+    <ClInclude Include="..\Code\PowerSwitch.h" />
+    <ClInclude Include="..\Code\RobotHead.h" />
+    <ClInclude Include="..\Code\RookMoveBullet.h" />
+    <ClInclude Include="..\Code\RookStopBullet.h" />
+    <ClInclude Include="..\Code\RoseSelect.h" />
+    <ClInclude Include="..\Code\RoseSelectRight.h" />
+    <ClInclude Include="..\Code\SaveSpace.h" />
+    <ClInclude Include="..\Code\DoubleHoze.h" />
+    <ClInclude Include="..\Code\SceneChangeSpace.h" />
+    <ClInclude Include="..\Code\Sheild.h" />
+    <ClInclude Include="..\Code\Sheilder.h" />
+    <ClInclude Include="..\Code\SkyBox.h" />
+    <ClInclude Include="..\Code\SmallFan.h" />
+    <ClInclude Include="..\Code\SoundSpace.h" />
+    <ClInclude Include="..\Code\SpaceBaboon.h" />
+    <ClInclude Include="..\Code\SpaceBoss.h" />
+    <ClInclude Include="..\Code\SpaceBridge.h" />
+    <ClInclude Include="..\Code\SpaceCup.h" />
+    <ClInclude Include="..\Code\SpaceField.h" />
+    <ClInclude Include="..\Code\SpaceField2.h" />
+    <ClInclude Include="..\Code\SpaceField3.h" />
+    <ClInclude Include="..\Code\SpaceGenerator.h" />
+    <ClInclude Include="..\Code\SpaceGlassBox.h" />
+    <ClInclude Include="..\Code\SpaceGlassHandle.h" />
+    <ClInclude Include="..\Code\SpaceLaser.h" />
+    <ClInclude Include="..\Code\SpaceLever.h" />
+    <ClInclude Include="..\Code\SpacePlatform.h" />
+    <ClInclude Include="..\Code\SpacePlatformWall.h" />
+    <ClInclude Include="..\Code\SpacePowerButton.h" />
+    <ClInclude Include="..\Code\SpaceRing.h" />
+    <ClInclude Include="..\Code\SpaceSeesaw.h" />
+    <ClInclude Include="..\Code\SpaceSpringBoard.h" />
+    <ClInclude Include="..\Code\SpaceSpringBoardSpring.h" />
+    <ClInclude Include="..\Code\SpaceValve.h" />
+    <ClInclude Include="..\Code\SpaceValveSpring.h" />
+    <ClInclude Include="..\Code\SpaceTube.h" />
+    <ClInclude Include="..\Code\SpaceWall.h" />
+    <ClInclude Include="..\Code\Staff.h" />
+    <ClInclude Include="..\Code\StaticHoze.h" />
+    <ClInclude Include="..\Code\StaticObject.h" />
+    <ClInclude Include="..\Code\TeleportSpace.h" />
+    <ClInclude Include="..\Code\TestCol.h" />
+    <ClInclude Include="..\Code\TestField.h" />
+    <ClInclude Include="..\Code\TestWall.h" />
+    <ClInclude Include="..\Code\Trigger.h" />
+    <ClInclude Include="..\Code\Torch.h" />
+    <ClInclude Include="..\Code\ToySword.h" />
+    <ClInclude Include="..\Code\TriggerView.h" />
+    <ClInclude Include="..\Code\UI.h" />
+    <ClInclude Include="..\Code\Vacuum.h" />
+    <ClInclude Include="..\Code\VacuumBigFan.h" />
+    <ClInclude Include="..\Code\VacuumBomb.h" />
+    <ClInclude Include="..\Code\VacuumBoss.h" />
+    <ClInclude Include="..\Code\VacuumCircle.h" />
+    <ClInclude Include="..\Code\VacuumCrusher.h" />
+    <ClInclude Include="..\Code\VacuumField.h" />
+    <ClInclude Include="..\Code\VacuumField2.h" />
+    <ClInclude Include="..\Code\VacuumField3.h" />
+    <ClInclude Include="..\Code\VacuumGenerator.h" />
+    <ClInclude Include="..\Code\VacuumHeadHoze.h" />
+    <ClInclude Include="..\Code\VacuumHub.h" />
+    <ClInclude Include="..\Code\VacuumMine.h" />
+    <ClInclude Include="..\Code\VacuumStone.h" />
+    <ClInclude Include="..\Code\VacuumToolBox.h" />
+    <ClInclude Include="..\Code\ValveBase.h" />
+    <ClInclude Include="..\Code\ValveHandle.h" />
+    <ClInclude Include="..\Code\WallSlideCylinder.h" />
+    <ClInclude Include="..\Code\WallSlideCylinderSurface.h" />
+    <ClInclude Include="..\Code\WarpGateStar.h" />
+    <ClInclude Include="..\Code\WindLaser.h" />
+    <ClInclude Include="..\Header\Client_Define.h" />
+    <ClInclude Include="..\Header\Client_Include.h" />
+    <ClInclude Include="BaboonBombBullet.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="CodyWizard_Enum.h" />
+    <ClInclude Include="MayCastle_Enum.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestMove.h" />
+    <ClInclude Include="VacuumFieldPart.h" />
+    <ClInclude Include="VacuumFieldPart2.h" />
+    <ClInclude Include="VacuumFieldPart3.h" />
+    <ClInclude Include="VacuumFieldPart4.h" />
+    <ClInclude Include="VacuumFieldPart5.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\AirFlowMeter.cpp" />
+    <ClCompile Include="..\Code\Arbalist.cpp" />
+    <ClCompile Include="..\Code\Arrow.cpp" />
+    <ClCompile Include="..\Code\BaboonBomb.cpp" />
+    <ClCompile Include="..\Code\BaboonBombUpBullet.cpp" />
+    <ClCompile Include="..\Code\BaboonGround.cpp" />
+    <ClCompile Include="..\Code\BaboonHitPoint.cpp" />
+    <ClCompile Include="..\Code\BaboonLaser.cpp" />
+    <ClCompile Include="..\Code\BandSaw.cpp" />
+    <ClCompile Include="..\Code\BatteryBox.cpp" />
+    <ClCompile Include="..\Code\BigPlug.cpp" />
+    <ClCompile Include="..\Code\BiShopMoveBullet.cpp" />
+    <ClCompile Include="..\Code\BiShopStopBullet.cpp" />
+    <ClCompile Include="..\Code\Blow.cpp" />
+    <ClCompile Include="..\Code\BoundingBox.cpp" />
+    <ClCompile Include="..\Code\CameraSpace.cpp" />
+    <ClCompile Include="..\Code\ChessBossDoor.cpp" />
+    <ClCompile Include="..\Code\ChessDuoDoor.cpp" />
+    <ClCompile Include="..\Code\CircleSaw.cpp" />
+    <ClCompile Include="..\Code\CodyWizard_IceOrbAtt.cpp" />
+    <ClCompile Include="..\Code\CodyWizard_IceOrbAttRB.cpp" />
+    <ClCompile Include="..\Code\Cody_Space.cpp" />
+    <ClCompile Include="..\Code\Cody_Space_Animation.cpp" />
+    <ClCompile Include="..\Code\Cog.cpp" />
+    <ClCompile Include="..\Code\Cogs.cpp" />
+    <ClCompile Include="..\Code\Cone.cpp" />
+    <ClCompile Include="..\Code\Cord.cpp" />
+    <ClCompile Include="..\Code\Crusher.cpp" />
+    <ClCompile Include="..\Code\CrusherBreakWall.cpp" />
+    <ClCompile Include="..\Code\CrusherBridge.cpp" />
+    <ClCompile Include="..\Code\CrusherBridgeBase.cpp" />
+    <ClCompile Include="..\Code\CrusherBridgeHolder.cpp" />
+    <ClCompile Include="..\Code\CenterHatch.cpp" />
+    <ClCompile Include="..\Code\ChessBishop.cpp" />
+    <ClCompile Include="..\Code\ChessBoss.cpp" />
+    <ClCompile Include="..\Code\ChessBridge.cpp" />
+    <ClCompile Include="..\Code\ChessDoorSwitch.cpp" />
+    <ClCompile Include="..\Code\ChessDoorSwitchFrame.cpp" />
+    <ClCompile Include="..\Code\ChessField.cpp" />
+    <ClCompile Include="..\Code\ChessKing.cpp" />
+    <ClCompile Include="..\Code\ChessKnight.cpp" />
+    <ClCompile Include="..\Code\ChessOpenDoor.cpp" />
+    <ClCompile Include="..\Code\ChessPawn.cpp" />
+    <ClCompile Include="..\Code\ChessQueen.cpp" />
+    <ClCompile Include="..\Code\ChessRail.cpp" />
+    <ClCompile Include="..\Code\ChessRook.cpp" />
+    <ClCompile Include="..\Code\ChessTile.cpp" />
+    <ClCompile Include="..\Code\ChessTrab.cpp" />
+    <ClCompile Include="..\Code\Cody.cpp" />
+    <ClCompile Include="..\Code\CodyAnimation.cpp" />
+    <ClCompile Include="..\Code\CodyCamera.cpp" />
+    <ClCompile Include="..\Code\CodyDoll.cpp" />
+    <ClCompile Include="..\Code\CodyWizard_Animation.cpp" />
+    <ClCompile Include="..\Code\Cody_Wizard.cpp" />
+    <ClCompile Include="..\Code\CollisionMgr.cpp" />
+    <ClCompile Include="..\Code\CrossBow.cpp" />
+    <ClCompile Include="..\Code\CrusherStartDoor.cpp" />
+    <ClCompile Include="..\Code\DeadSpace.cpp" />
+    <ClCompile Include="..\Code\Dumbbell.cpp" />
+    <ClCompile Include="..\Code\Earth.cpp" />
+    <ClCompile Include="..\Code\Ending.cpp" />
+    <ClCompile Include="..\Code\Enermy.cpp" />
+    <ClCompile Include="..\Code\Escape_Shuttle.cpp" />
+    <ClCompile Include="..\Code\Escape_ShuttleRamp.cpp" />
+    <ClCompile Include="..\Code\Fan.cpp" />
+    <ClCompile Include="..\Code\FanButton.cpp" />
+    <ClCompile Include="..\Code\FanHolder.cpp" />
+    <ClCompile Include="..\Code\FerrisWheelBody.cpp" />
+    <ClCompile Include="..\Code\FerrisWheelModule.cpp" />
+    <ClCompile Include="..\Code\FireSwirl.cpp" />
+    <ClCompile Include="..\Code\FireSwordEffect.cpp" />
+    <ClCompile Include="..\Code\FuseBox.cpp" />
+    <ClCompile Include="..\Code\FuseLight.cpp" />
+    <ClCompile Include="..\Code\FuseNPC.cpp" />
+    <ClCompile Include="..\Code\FuseStatic.cpp" />
+    <ClCompile Include="..\Code\CrusherHitPoint.cpp" />
+    <ClCompile Include="..\Code\GeneratorBattery.cpp" />
+    <ClCompile Include="..\Code\GeneratorLever.cpp" />
+    <ClCompile Include="..\Code\GravityFloor.cpp" />
+    <ClCompile Include="..\Code\GrindStone.cpp" />
+    <ClCompile Include="..\Code\GroundBounce.cpp" />
+    <ClCompile Include="..\Code\GroundBouncePanel.cpp" />
+    <ClCompile Include="..\Code\GroundPoundBox.cpp" />
+    <ClCompile Include="..\Code\GroundPoundButton.cpp" />
+    <ClCompile Include="..\Code\HangDoor.cpp" />
+    <ClCompile Include="..\Code\HubPlatform.cpp" />
+    <ClCompile Include="..\Code\IceBullet.cpp" />
+    <ClCompile Include="..\Code\ImageUI.cpp" />
+    <ClCompile Include="..\Code\Knight.cpp" />
+    <ClCompile Include="..\Code\LaserMirror.cpp" />
+    <ClCompile Include="..\Code\Lever.cpp" />
+    <ClCompile Include="..\Code\LightObject.cpp" />
+    <ClCompile Include="..\Code\LineObject.cpp" />
+    <ClCompile Include="..\Code\Loading.cpp" />
+    <ClCompile Include="..\Code\Logo.cpp" />
+    <ClCompile Include="..\Code\LogoBack.cpp" />
+    <ClCompile Include="..\Code\Mage.cpp" />
+    <ClCompile Include="..\Code\Main.cpp" />
+    <ClCompile Include="..\Code\MainCamera.cpp" />
+    <ClCompile Include="..\Code\Map.cpp" />
+    <ClCompile Include="..\Code\May.cpp" />
+    <ClCompile Include="..\Code\MayAnimation.cpp" />
+    <ClCompile Include="..\Code\MayCamera.cpp" />
+    <ClCompile Include="..\Code\MayCastle_Animation.cpp" />
+    <ClCompile Include="..\Code\MayDoll.cpp" />
+    <ClCompile Include="..\Code\May_Castle.cpp" />
+    <ClCompile Include="..\Code\May_Space.cpp" />
+    <ClCompile Include="..\Code\May_Space_Animation.cpp" />
+    <ClCompile Include="..\Code\Menu.cpp" />
+    <ClCompile Include="..\Code\MenuPlayerSelect.cpp" />
+    <ClCompile Include="..\Code\MenuSelect.cpp" />
+    <ClCompile Include="..\Code\MenuUI.cpp" />
+    <ClCompile Include="..\Code\MiniVacuum.cpp" />
+    <ClCompile Include="..\Code\MiniVacuumHead.cpp" />
+    <ClCompile Include="..\Code\MiniVacuumHub.cpp" />
+    <ClCompile Include="..\Code\BaboonMissile.cpp" />
+    <ClCompile Include="..\Code\MorningStar.cpp" />
+    <ClCompile Include="..\Code\Navi.cpp" />
+    <ClCompile Include="..\Code\Nozzle.cpp" />
+    <ClCompile Include="..\Code\Ogre.cpp" />
+    <ClCompile Include="..\Code\OgreChain.cpp" />
+    <ClCompile Include="..\Code\OgreStartDoor.cpp" />
+    <ClCompile Include="..\Code\OgreStone.cpp" />
+    <ClCompile Include="..\Code\Orb.cpp" />
+    <ClCompile Include="..\Code\PawnBullet.cpp" />
+    <ClCompile Include="..\Code\Pedestal.cpp" />
+    <ClCompile Include="..\Code\Player.cpp" />
+    <ClCompile Include="..\Code\PlayerValue.cpp" />
+    <ClCompile Include="..\Code\PosChange.cpp" />
+    <ClCompile Include="..\Code\PowerButton.cpp" />
+    <ClCompile Include="..\Code\PowerSwitch.cpp" />
+    <ClCompile Include="..\Code\RobotHead.cpp" />
+    <ClCompile Include="..\Code\RookMoveBullet.cpp" />
+    <ClCompile Include="..\Code\RookStopBullet.cpp" />
+    <ClCompile Include="..\Code\RoseSelect.cpp" />
+    <ClCompile Include="..\Code\RoseSelectRight.cpp" />
+    <ClCompile Include="..\Code\SaveSpace.cpp" />
+    <ClCompile Include="..\Code\DoubleHoze.cpp" />
+    <ClCompile Include="..\Code\SceneChangeSpace.cpp" />
+    <ClCompile Include="..\Code\Sheild.cpp" />
+    <ClCompile Include="..\Code\Sheilder.cpp" />
+    <ClCompile Include="..\Code\SkyBox.cpp" />
+    <ClCompile Include="..\Code\SmallFan.cpp" />
+    <ClCompile Include="..\Code\SoundSpace.cpp" />
+    <ClCompile Include="..\Code\SpaceBaboon.cpp" />
+    <ClCompile Include="..\Code\SpaceBoss.cpp" />
+    <ClCompile Include="..\Code\SpaceBridge.cpp" />
+    <ClCompile Include="..\Code\SpaceCup.cpp" />
+    <ClCompile Include="..\Code\SpaceField.cpp" />
+    <ClCompile Include="..\Code\SpaceField2.cpp" />
+    <ClCompile Include="..\Code\SpaceField3.cpp" />
+    <ClCompile Include="..\Code\SpaceGenerator.cpp" />
+    <ClCompile Include="..\Code\SpaceGlassBox.cpp" />
+    <ClCompile Include="..\Code\SpaceGlassHandle.cpp" />
+    <ClCompile Include="..\Code\SpaceLaser.cpp" />
+    <ClCompile Include="..\Code\SpaceLever.cpp" />
+    <ClCompile Include="..\Code\SpacePlatform.cpp" />
+    <ClCompile Include="..\Code\SpacePlatformWall.cpp" />
+    <ClCompile Include="..\Code\SpacePowerButton.cpp" />
+    <ClCompile Include="..\Code\SpaceRing.cpp" />
+    <ClCompile Include="..\Code\SpaceSeesaw.cpp" />
+    <ClCompile Include="..\Code\SpaceSpringBoard.cpp" />
+    <ClCompile Include="..\Code\SpaceSpringBoardSpring.cpp" />
+    <ClCompile Include="..\Code\SpaceValve.cpp" />
+    <ClCompile Include="..\Code\SpaceValveSpring.cpp" />
+    <ClCompile Include="..\Code\SpaceTube.cpp" />
+    <ClCompile Include="..\Code\SpaceWall.cpp" />
+    <ClCompile Include="..\Code\Staff.cpp" />
+    <ClCompile Include="..\Code\StaticHoze.cpp" />
+    <ClCompile Include="..\Code\StaticObject.cpp" />
+    <ClCompile Include="..\Code\TeleportSpace.cpp" />
+    <ClCompile Include="..\Code\TestCol.cpp" />
+    <ClCompile Include="..\Code\TestField.cpp" />
+    <ClCompile Include="..\Code\TestWall.cpp" />
+    <ClCompile Include="..\Code\Trigger.cpp" />
+    <ClCompile Include="..\Code\Torch.cpp" />
+    <ClCompile Include="..\Code\ToySword.cpp" />
+    <ClCompile Include="..\Code\TriggerView.cpp" />
+    <ClCompile Include="..\Code\UI.cpp" />
+    <ClCompile Include="..\Code\Vacuum.cpp" />
+    <ClCompile Include="..\Code\VacuumBigFan.cpp" />
+    <ClCompile Include="..\Code\VacuumBomb.cpp" />
+    <ClCompile Include="..\Code\VacuumBoss.cpp" />
+    <ClCompile Include="..\Code\VacuumCircle.cpp" />
+    <ClCompile Include="..\Code\VacuumCrusher.cpp" />
+    <ClCompile Include="..\Code\VacuumField.cpp" />
+    <ClCompile Include="..\Code\VacuumField2.cpp" />
+    <ClCompile Include="..\Code\VacuumField3.cpp" />
+    <ClCompile Include="..\Code\VacuumGenerator.cpp" />
+    <ClCompile Include="..\Code\VacuumHeadHoze.cpp" />
+    <ClCompile Include="..\Code\VacuumHub.cpp" />
+    <ClCompile Include="..\Code\VacuumMine.cpp" />
+    <ClCompile Include="..\Code\VacuumStone.cpp" />
+    <ClCompile Include="..\Code\VacuumToolBox.cpp" />
+    <ClCompile Include="..\Code\ValveBase.cpp" />
+    <ClCompile Include="..\Code\ValveHandle.cpp" />
+    <ClCompile Include="..\Code\WallSlideCylinder.cpp" />
+    <ClCompile Include="..\Code\WallSlideCylinderSurface.cpp" />
+    <ClCompile Include="..\Code\WarpGateStar.cpp" />
+    <ClCompile Include="..\Code\WindLaser.cpp" />
+    <ClCompile Include="BaboonBombBullet.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestMove.cpp" />
+    <ClCompile Include="VacuumFieldPart.cpp" />
+    <ClCompile Include="VacuumFieldPart2.cpp" />
+    <ClCompile Include="VacuumFieldPart3.cpp" />
+    <ClCompile Include="VacuumFieldPart4.cpp" />
+    <ClCompile Include="VacuumFieldPart5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

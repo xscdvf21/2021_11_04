@@ -1,0 +1,2037 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Main">
+      <UniqueIdentifier>{2245b206-e34e-45b5-a4b1-0f34b9202516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{9665fa44-4efe-4a86-b942-036e0c57c0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{d8af40d1-e6f3-46ee-9ced-9823de932cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Header">
+      <UniqueIdentifier>{853aeb48-2982-4261-acd3-cb51860f34ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Client">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Etc">
+      <UniqueIdentifier>{d0d5e8af-c4c8-4f40-8ed9-66dcab02b759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Loading">
+      <UniqueIdentifier>{d3ee8d51-c4f9-46a1-8304-7464f289a5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Logo">
+      <UniqueIdentifier>{3ed2ba73-f0b5-4b68-a461-9053b0c81bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Menu">
+      <UniqueIdentifier>{552cc180-97f3-4408-937b-b184d0969b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Logo\LogoBack">
+      <UniqueIdentifier>{622223aa-1d05-430c-9de5-8c3b21485041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character">
+      <UniqueIdentifier>{06c95380-d8fc-4a82-a413-322147565c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player">
+      <UniqueIdentifier>{84cfaa11-80c7-4a6f-b987-cd3d1da521be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy">
+      <UniqueIdentifier>{c899971a-ec5a-482c-94ca-152de8fbd4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss">
+      <UniqueIdentifier>{e86fdb8d-bbc0-4aa4-bbe7-b614631faf08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. Camera">
+      <UniqueIdentifier>{50e8b5f7-66c2-4984-8486-4225a004c079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. Camera\00. MainCamera">
+      <UniqueIdentifier>{dad7b23f-4377-42b6-a5b9-3ce34b0fbc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\05. Etc">
+      <UniqueIdentifier>{cedf8c46-6ebd-45ad-92a4-be3baf7c69ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\05. Etc\00. Navi">
+      <UniqueIdentifier>{edfec864-1e59-4b56-86a0-578ee206a5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. UI">
+      <UniqueIdentifier>{099aebb5-1f22-485d-9dc5-68114218ced8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. UI\00. Bubble">
+      <UniqueIdentifier>{a5d738bc-11bc-43d9-b429-39afdab8f007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. UI\01. Fade">
+      <UniqueIdentifier>{3ea30d97-c455-4018-adb3-6205e0392c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. Camera\00. MainCamera\MayCamera">
+      <UniqueIdentifier>{d848b3f0-eb79-400c-8901-9baccbc290c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. Camera\00. MainCamera\CodyCamera">
+      <UniqueIdentifier>{632a65e9-52ea-4dcf-abd9-39725dc0e983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\05. Chess Field">
+      <UniqueIdentifier>{79eb015c-f0c1-4aad-b192-6311c1c998c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\06. Chess Boss">
+      <UniqueIdentifier>{72c7ffdf-25ad-415d-9507-0cf7535b42f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum">
+      <UniqueIdentifier>{9304e47a-2733-44df-9251-0916ec4fc69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\00. Bomb">
+      <UniqueIdentifier>{3d783cf8-0435-46d5-b94c-f869dff44ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\01. Mine">
+      <UniqueIdentifier>{14f5b20b-0ef4-4cd7-aa2a-80047102ffa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\02. Circle">
+      <UniqueIdentifier>{f0390919-554f-40f1-9dff-b486c8539cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\03. Stone">
+      <UniqueIdentifier>{a14ba25e-fe82-4804-b2dc-61e40dbd8343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess">
+      <UniqueIdentifier>{2b477ed8-dee3-4174-bd83-856fd7d761bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\00. King">
+      <UniqueIdentifier>{b128866c-ee9b-4aed-9208-a8fac780fc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\01. Queen">
+      <UniqueIdentifier>{7464b6fc-4dcf-4c7c-bca2-85788ced2090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop">
+      <UniqueIdentifier>{89452d37-adaf-47a8-8ff7-869d81cf742b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop\00 BishopMoveBullet">
+      <UniqueIdentifier>{ddbf4e2f-39c3-45ea-ba5d-d7266f382b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop\01. BishopStopBullet">
+      <UniqueIdentifier>{1a796320-768e-4a3f-a899-6a12415bc88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\03. Pawn">
+      <UniqueIdentifier>{2d79d6b1-fc6e-4d39-9ec0-92942ce12f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\03. Pawn\00.PawnBullet">
+      <UniqueIdentifier>{f9c8a153-ad37-430a-b9d7-37bca0634dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\04. Rook">
+      <UniqueIdentifier>{840802f2-d1c8-4f8d-b174-99dd838184d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\04. Rook\00.RookMoveBullet">
+      <UniqueIdentifier>{8046a308-5843-4755-9789-60d3b5f26283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\04. Rook\01.RookStopBullet">
+      <UniqueIdentifier>{4aeb3b2b-38f9-4b66-98d6-e2ca4db8fd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\05. Knight">
+      <UniqueIdentifier>{126e99be-358d-4bfb-8c4c-e75df5b8fd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\99. ChessTile">
+      <UniqueIdentifier>{c979da3d-f4e0-4461-a22c-3b312102316d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart">
+      <UniqueIdentifier>{6fc586a8-d2ec-4d29-bf28-7e9717af3453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\00. Part1">
+      <UniqueIdentifier>{988dd89c-5237-4ae8-92dd-da162e34ed30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\01. Part2">
+      <UniqueIdentifier>{a0c78908-db56-467a-8c05-f351df52743a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\02. Part3">
+      <UniqueIdentifier>{f350b33e-0582-4941-9344-a5aa74213272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\03. Part4">
+      <UniqueIdentifier>{1342a285-aca5-4c70-8248-6eea941fef89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\04. Part5">
+      <UniqueIdentifier>{a2c9d2e9-142a-4345-a97e-015ee77138ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Effect">
+      <UniqueIdentifier>{7c162fbc-008b-47cc-a7ac-08b5191a75af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Effect\00. Fire">
+      <UniqueIdentifier>{56dffc13-d0bc-4217-bcb3-9b2881c0d515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Effect\00. Fire\Sword">
+      <UniqueIdentifier>{b356ed63-68df-4b4a-bae1-929f60ce2b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Effect\00. Fire\Swirl">
+      <UniqueIdentifier>{d0e74a71-f984-48bf-91d6-5b6be4104eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. UI\01. ImageUI">
+      <UniqueIdentifier>{ce41ed48-4dbc-4b9d-8578-1f543f04d5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Header\Collision">
+      <UniqueIdentifier>{b3d3c1f4-bd6c-42b4-b534-561d5846f310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. UI\02. MenuUI">
+      <UniqueIdentifier>{60fcd421-7767-4b69-bb3b-7e9bc93ee979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Menu\00. MenuSelect">
+      <UniqueIdentifier>{d755db63-3c7f-41c0-8d91-8b543b521e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Menu\01. Menu">
+      <UniqueIdentifier>{e7bd4335-8879-4613-8f56-f9034e57ed0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Menu\02. MenuPlayerSelect">
+      <UniqueIdentifier>{cb687f32-44b3-4a7d-8e48-95259aef34d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\05. Logo, Menu">
+      <UniqueIdentifier>{0311a722-e0f3-4c90-88d7-4780a747dd9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\05. Logo, Menu\00. RoseSelect">
+      <UniqueIdentifier>{e52abf5d-37ea-4b4b-ae2e-4b685ea49b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\05. Logo, Menu\01. CodyDoll">
+      <UniqueIdentifier>{0d7321ca-fd0c-417b-ba87-31864e7c9779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\05. Logo, Menu\02. MayDoll">
+      <UniqueIdentifier>{f52385b4-f83f-49ab-9856-0de45cb67acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\99. ControllerCallback">
+      <UniqueIdentifier>{ca239fb2-fd96-43f9-9fd6-8c63ed640d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre">
+      <UniqueIdentifier>{e840a82f-f10e-4e5b-8e85-796e55cefdfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Effect\01. Blow">
+      <UniqueIdentifier>{3eeeca15-836c-47c9-a820-f39d87a54f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\02. Chain">
+      <UniqueIdentifier>{b6d93578-3a4a-49dc-be00-2b491634197d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\00. StartDoor">
+      <UniqueIdentifier>{4c4effe2-5690-40fe-8fec-d3ead970364d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\99. Test Field">
+      <UniqueIdentifier>{41f0432e-c0e0-49dd-b319-f36616859b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\04. TestCol">
+      <UniqueIdentifier>{0f8f6d9d-b3ad-4b7b-a32b-c0cffc0d02ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\03. CenterHatch">
+      <UniqueIdentifier>{a74f5d6b-df6d-4336-8247-2e2af9e56c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\01. OgreStone">
+      <UniqueIdentifier>{28d06e47-e1ac-4507-a3af-b2cc6ab290a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. Vacuum Field">
+      <UniqueIdentifier>{d53247f5-2356-4759-b1f4-2b62cfa5f96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. Vacuum Field\01.">
+      <UniqueIdentifier>{5890417a-8cd6-42ea-9058-3831337955da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. Vacuum Field\02.">
+      <UniqueIdentifier>{980adf4c-85af-4cac-9330-7b05600fc0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. Vacuum Field\03.">
+      <UniqueIdentifier>{96635e69-4373-4f83-b8ea-db8817dc980f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\04. Vacuum Boss">
+      <UniqueIdentifier>{2771a4ef-3c90-40bc-9845-4c253a9b0240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\00. Knight">
+      <UniqueIdentifier>{2ad0ac71-a15a-4449-a960-eaeb16940551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\00. Knight\00. MorningStar">
+      <UniqueIdentifier>{6fa9abd6-eb93-4a41-a2d4-0a8a62c519fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\01. Mage">
+      <UniqueIdentifier>{6386108b-bcca-4226-88d9-9f4da6720272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\01. Mage\00.Staff">
+      <UniqueIdentifier>{2bca96d8-c544-4f75-a79a-ab8de4645349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\01. Mage\01. IceBullet">
+      <UniqueIdentifier>{810657ba-6673-4826-95aa-bf784429df6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\02. Sheilder">
+      <UniqueIdentifier>{c08d9a04-d7d2-4c04-a1f3-e719c4038580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\02. Sheilder\00. Sheild">
+      <UniqueIdentifier>{9857fdc3-77e7-4eb2-b95a-87c8923a6272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\03. Arbalist">
+      <UniqueIdentifier>{6cfdcebd-dbc3-4e0a-8f3d-ffd6f4eeb45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\03. Arbalist\00. CrossBow">
+      <UniqueIdentifier>{91070b59-37f5-46d7-a8ee-188deedf5cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\01. Enemy\03. Arbalist\01. Arrow">
+      <UniqueIdentifier>{43ebccce-2eae-4dde-ae7b-bf820734ed27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\03. Enemy">
+      <UniqueIdentifier>{e4c59130-bfde-4d87-8077-c1c50e3385c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\01. Chess\07. Crusher">
+      <UniqueIdentifier>{44263b70-3c8d-48af-bcce-3c65d610ccf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map">
+      <UniqueIdentifier>{ce61e4c5-77f2-42dc-81ba-b998b47765c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\00. Map">
+      <UniqueIdentifier>{a46faf9d-c7d5-4a44-81a5-443c45575104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment">
+      <UniqueIdentifier>{16910793-8505-4579-9a7d-9ea515ba073a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\01. SkyBox">
+      <UniqueIdentifier>{e45c97de-787a-4351-b6fb-a6c3d09af6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\02. StaticObject">
+      <UniqueIdentifier>{167f70d6-d794-4ede-966c-8fd8caf183f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\02. StaticObject\NewFilter1">
+      <UniqueIdentifier>{4b3ebaa0-1d17-4af3-beaa-fbf365ac55ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\03. VacuumHub">
+      <UniqueIdentifier>{caacef40-bbb3-46c6-b618-473e61e20bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject">
+      <UniqueIdentifier>{42a13b39-27b8-4430-b4a4-fe543b73280f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\01. Chess">
+      <UniqueIdentifier>{80f2c238-d8bd-4857-a359-e976d0389cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed">
+      <UniqueIdentifier>{d4f558da-5d4c-415b-9ae2-e9d2e6135d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan">
+      <UniqueIdentifier>{a6fe1fb2-4ad1-4a8e-85b7-7bcc51921b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan\FanHolder">
+      <UniqueIdentifier>{4fae4cf2-681f-40d1-b9c4-1da6dead1064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan\Crusher">
+      <UniqueIdentifier>{de2210b0-aadd-4880-ae18-1176e59ad6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\01. FuseBox">
+      <UniqueIdentifier>{1f6ff635-700a-47d9-aeec-c8d5d6dee362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\02. FuseLight">
+      <UniqueIdentifier>{7937835d-9098-42d8-a5e0-c8f38561b230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\03. Lever">
+      <UniqueIdentifier>{716e2ca0-f6d6-4c41-ae8d-d7299cb20ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\00. Fuse">
+      <UniqueIdentifier>{f0f765dc-a191-4d19-965b-4820cb73d7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\05. BigFan">
+      <UniqueIdentifier>{91d2d79b-72f9-429f-9c52-d69db13e7448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\06. Airflowmeter">
+      <UniqueIdentifier>{cd9ebb3d-87ef-4908-aa2b-a7bf13ba36e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\07. ToolBox">
+      <UniqueIdentifier>{e262b31d-1251-4568-ba10-9cdd1907f47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\08. HubPlatform">
+      <UniqueIdentifier>{2fe17fca-7f9d-46b6-a699-95b552474dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\03. HangLever">
+      <UniqueIdentifier>{290bd545-b59c-4c2f-86a6-d3859013df5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\03. HangLever\00. PowerSwitch">
+      <UniqueIdentifier>{3f77caf7-f6bf-456f-9a33-3edca3a92722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\09. BandSaw">
+      <UniqueIdentifier>{1ecfcfa4-23af-4237-821e-74c7f0db113c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\10. Dumbbell">
+      <UniqueIdentifier>{7430db99-f708-4aa8-9b0e-12e5b6dcca70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\11. WallSlideCylinder">
+      <UniqueIdentifier>{a09e29d5-3636-4958-855b-0cb2a7babd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\11. PowerButton">
+      <UniqueIdentifier>{0db785ba-6e2f-4363-9b58-a9a49c59ab9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\12. StaticHoze">
+      <UniqueIdentifier>{6a741cb9-887b-40e7-a493-de8d000a4e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject">
+      <UniqueIdentifier>{2cfb6e6d-5c87-42a8-a982-7409f03770e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\Torch">
+      <UniqueIdentifier>{7d0d9743-556f-4509-8bb3-6247d4c08cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess">
+      <UniqueIdentifier>{0ab5f9d7-4865-4d6e-84c7-2844acf2bbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\01. Trab">
+      <UniqueIdentifier>{4e5f2fb4-ce3a-4753-bb25-5bf741294ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\01. Trab\00. Rail">
+      <UniqueIdentifier>{513110fa-40bf-460c-bb26-87413862f841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\02. Button">
+      <UniqueIdentifier>{75e93e8b-3160-41a5-a60d-04558ea6326c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\02. Button\00. DoorSwitch">
+      <UniqueIdentifier>{ffb33769-d942-4ef7-924c-a188ac9729d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\02. Button\01. DoorSwitchFrame">
+      <UniqueIdentifier>{803086d2-d848-480c-b38d-9ef059cee670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\00. Door">
+      <UniqueIdentifier>{03339ec1-b7ed-4ed2-81fb-a20b0e2e05b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\03. Bridge">
+      <UniqueIdentifier>{b00d609d-f66f-4d6f-a8d9-6e601a94fae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher">
+      <UniqueIdentifier>{51056e75-6f83-47a9-b4b1-37d18b5ca738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\01. BridgeBase">
+      <UniqueIdentifier>{6e53abcd-0c23-46fb-a705-4eaac2446f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\02. Bridge">
+      <UniqueIdentifier>{7c295d4e-8ce2-4bbc-93cc-10ebbc685ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\03. HitPoint">
+      <UniqueIdentifier>{52a28879-5737-4260-b89b-368504f5085d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\04. BreakWall">
+      <UniqueIdentifier>{162fdd01-a27f-421e-9f5f-198b9187eefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\00. BridgeHolder">
+      <UniqueIdentifier>{afdb937e-dc46-461a-a01d-85aeb9ba74fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\05. StartDoor">
+      <UniqueIdentifier>{27616b49-c54a-4cf0-95e1-5d1adc3eafdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\00. Vacuum">
+      <UniqueIdentifier>{3b835f33-c3b5-4dbc-ba65-18068df8037d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\99. TestWall">
+      <UniqueIdentifier>{f8113e0a-3e51-4017-9d68-925d845cebe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\13. SceneChangeHoze">
+      <UniqueIdentifier>{6b70e262-fd89-4c96-a876-d0b4d53570ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\04. Nozzle">
+      <UniqueIdentifier>{b020d46f-860f-402d-9f96-ff2cf3630547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\99. TestBox">
+      <UniqueIdentifier>{b2ecd06f-9d97-4450-b8f1-e0d0127e5c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\14. VacuumHeadHoze">
+      <UniqueIdentifier>{6c805dcf-8377-4729-aa5c-46e4bee8ce3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\15. GrindStone">
+      <UniqueIdentifier>{784d4289-efdf-455c-b45f-b0c31c3a3f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel">
+      <UniqueIdentifier>{b333b8ce-ec61-4515-a22d-4ba2dcd05b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel\SmallFan">
+      <UniqueIdentifier>{8ee45e9f-ce92-4107-9fd5-603049dbfd3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel\Body">
+      <UniqueIdentifier>{4e7f854f-174e-4de6-9a9e-1f7c0a778066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\17. Valve">
+      <UniqueIdentifier>{c220369d-f99e-4c55-8164-eda4038872b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\10. Space Boss">
+      <UniqueIdentifier>{87b85d86-be85-41d2-adaf-88b0de5e227b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\07. Space Field">
+      <UniqueIdentifier>{aeeee837-d0c6-43b4-9971-92c5072f02cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\07. Space Field\01.">
+      <UniqueIdentifier>{9e892a0f-015d-4658-b590-4b0e810447fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\07. Space Field\02.">
+      <UniqueIdentifier>{c9b3483d-de53-4af5-ae8f-1636cac0d552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\07. Space Field\03.">
+      <UniqueIdentifier>{059b2061-a124-4bc3-8a88-fdc164052a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Trigger">
+      <UniqueIdentifier>{1a1ec973-d08f-4bbb-9f14-73ce5234d555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess">
+      <UniqueIdentifier>{0e836ad8-28d8-43fb-849c-ec468e171738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard">
+      <UniqueIdentifier>{bfe5349d-c0f6-49f2-b0a0-97cdb477f158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\CodyWizard_Animation">
+      <UniqueIdentifier>{dee3e598-f77c-437b-b0ab-801da3142d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\Weapon">
+      <UniqueIdentifier>{d1028f48-8312-4b2c-b802-00a01e3da850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\IceOrbAttack">
+      <UniqueIdentifier>{dc272480-29f2-40a4-aaef-997d0289a2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\Ult">
+      <UniqueIdentifier>{66437aef-fe24-415b-8548-caae7d362fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle">
+      <UniqueIdentifier>{3b3f62a6-cbb6-4998-9c16-ece5ff37e2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle\MayCastle_Anim">
+      <UniqueIdentifier>{6e0cf461-ee1f-4e63-9116-71e8ddf6c789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle\Weapon">
+      <UniqueIdentifier>{9e9e9f74-5013-4cfd-81c2-acd15e947bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\00. Vacuum">
+      <UniqueIdentifier>{6fe5d41f-daf9-4259-8e5f-567dd7335ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\00. Vacuum\01. Cody">
+      <UniqueIdentifier>{a794cc8e-a6b9-4ef1-9a46-5737d05d2e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\00. Vacuum\01. Cody\CodyAnimation">
+      <UniqueIdentifier>{4115ea71-74b0-4bef-b01b-ed2d06307f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\00. Vacuum\00. May">
+      <UniqueIdentifier>{830ce1cb-3f26-4792-8c7f-541fc6a4b44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\00. Vacuum\00. May\MayAnimation">
+      <UniqueIdentifier>{ee746f77-b797-48cb-8cfd-865cbf73863c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\01. Space">
+      <UniqueIdentifier>{ce35f587-94ac-4510-9673-9224c967c47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\01. Space\00. Cody_Space">
+      <UniqueIdentifier>{7c335009-909c-4921-aa58-1d4c115ed19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\00. Player\01. Space\01. May_Space">
+      <UniqueIdentifier>{d06897c6-149e-47f5-ae0b-387726c2c921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\02. Space">
+      <UniqueIdentifier>{158f4f68-80ed-4914-8fe7-862beb5525f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\02. Space\00. Missile">
+      <UniqueIdentifier>{312d4060-61f8-4e20-95de-b96547479f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\02. Space\01. Laser">
+      <UniqueIdentifier>{0844c7e8-11da-4104-9565-14f896e6065b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\18. CircleSaw">
+      <UniqueIdentifier>{278c70df-1c36-4d64-9f6a-6c7f7f99edd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\18. CircleSaw\Pedestal">
+      <UniqueIdentifier>{dfa6ff7c-5674-4a4e-9c64-5b3d9a6d2ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\19. Cord">
+      <UniqueIdentifier>{afe54612-3f6b-4e37-8e89-532c5671e81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\19. Cord\Cord">
+      <UniqueIdentifier>{3cfa2825-1ff3-4198-bd6e-f63cf3d5e6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\19. Cord\BigPlug">
+      <UniqueIdentifier>{468fbe0a-0be1-4339-bd4a-eadbcad45261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\18. CircleSaw\Trigger">
+      <UniqueIdentifier>{9f22e1de-19d1-49e4-90f0-067b62f709a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\98. Test">
+      <UniqueIdentifier>{ca1c5a3f-d660-4d66-b4ea-1fd86c763023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\02. Space\02. Bomb">
+      <UniqueIdentifier>{17a1c6dc-4cd8-4462-95f6-e689b77cebbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\05. VacuumGenerator">
+      <UniqueIdentifier>{bb97e830-d25f-4f45-9ff8-482284650f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\00. Shed\20. TriggerView">
+      <UniqueIdentifier>{b151be19-0861-40ee-8271-f9759c723f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\02. Space\03. WindLaser">
+      <UniqueIdentifier>{2c9352ae-c925-47e7-9f9d-4bc66b3900a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\02. Space\04. Laser">
+      <UniqueIdentifier>{da7efec7-116a-48f6-977b-0a17e484828b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Character\02. Boss\02. Space\05. LaserMirror">
+      <UniqueIdentifier>{7efc2b5b-d352-4554-a6ec-a4ff85626a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\00. Vacuum\00. LineObject">
+      <UniqueIdentifier>{0107ac5e-ab02-4a10-97b9-645eaac3b089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space">
+      <UniqueIdentifier>{9b8c92c9-2d75-4dad-8b1f-e39034819f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\99. Global">
+      <UniqueIdentifier>{a7fa53ff-3de2-49ed-ba59-3b8863ae93fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\99. Global\00. DeadSpace">
+      <UniqueIdentifier>{cdbd5d1f-6ecc-451c-a26d-891c46ff630c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\99. Global\01. SaveSpace">
+      <UniqueIdentifier>{4c1793eb-98cd-45e8-889f-29e6c6610ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\99. Global\02. ScenechangeSpace">
+      <UniqueIdentifier>{82a6589c-c89d-4d9f-9fa6-14b6aef364cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\01. PowerButton">
+      <UniqueIdentifier>{75d5783b-7848-40a1-9f43-f5d1d20fe7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\02. Space">
+      <UniqueIdentifier>{d27ee306-47d8-4451-b942-f955d8d9192f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\02. Space\01. Bridge">
+      <UniqueIdentifier>{7001d80c-7ff2-4e6b-9949-b74141cb420b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\02. Space\00. Boss">
+      <UniqueIdentifier>{a1c39415-357a-4294-8e1c-693371a542d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\02. Space\00. Boss\00.HitPoint">
+      <UniqueIdentifier>{7e760d9a-e71b-4453-b59d-ee027c7bc266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\03. MapObject\02. Space\00. Boss\01.Ground">
+      <UniqueIdentifier>{ad6a00de-221e-4b26-9a75-4c417c8ea7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\02. GroundBounce">
+      <UniqueIdentifier>{3960f5e8-b90d-4d09-a091-835a5be33180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\00. GravityFloor">
+      <UniqueIdentifier>{c41a5c7b-c8ef-4341-a147-67606a16336d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\03. SpaceCup">
+      <UniqueIdentifier>{11252c9e-903b-4d5d-9779-53204882a7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\04. SpaceWall">
+      <UniqueIdentifier>{a8a55b0f-1cd8-4c86-996a-121c00810e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\05. SpacePlatform">
+      <UniqueIdentifier>{229f3cc6-0f4a-4774-80a6-65e05536a333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\06. SpaceValve">
+      <UniqueIdentifier>{1df7666a-e227-4572-b601-18b831229105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\07. Spring">
+      <UniqueIdentifier>{d430fb67-28d2-4661-930d-19a87cd9788f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\08. GoundBouncePanel">
+      <UniqueIdentifier>{391e3364-2d82-44c0-844a-f55042dc4be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\09. Cog">
+      <UniqueIdentifier>{20c086d0-08cd-4ec9-ae1d-ae8981ba8d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\10. SpaceTube">
+      <UniqueIdentifier>{a9f16f67-e553-4137-b812-fe39f5b6fd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\11. SpaceSeesaw">
+      <UniqueIdentifier>{5deea76d-f030-434f-a66e-77bf55c7b445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\12. SpaceSpringBoard">
+      <UniqueIdentifier>{ab805bda-6e49-45e2-9d57-c0a2425624ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\13. SpaceGravityBox">
+      <UniqueIdentifier>{12a21350-d57f-4fbf-b9ad-bc9984e5bb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\14. SpacePushStair">
+      <UniqueIdentifier>{ec6e5664-6d36-43d0-9799-e8ca1766c3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\12. SpaceLever">
+      <UniqueIdentifier>{23a98ad5-369c-4a06-8ebb-03494c740c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\15. Generator">
+      <UniqueIdentifier>{33159852-b693-405b-ad40-a05dc777e88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\15. Generator\00. Battery">
+      <UniqueIdentifier>{9e884999-dfe5-4a41-a870-e87a03149a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\15. Generator\01. Lever">
+      <UniqueIdentifier>{c24d21f5-0b7e-4aeb-bfb4-719d6f0db2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\16. WarpGateStar">
+      <UniqueIdentifier>{7aac10fc-cd21-43ce-953b-4e9dad793367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\17. HangDoor">
+      <UniqueIdentifier>{7d77b9e6-7e51-4dde-9df8-9e538ed39914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\99. Global\04. TeleportSpace">
+      <UniqueIdentifier>{4b05606e-3c2f-4985-b80b-a5d560b11e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\06. RobotHead">
+      <UniqueIdentifier>{82dd078f-0a2e-40a6-98be-bb6330c0fa16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\18. SpaceMoveBox">
+      <UniqueIdentifier>{9054b5a0-1d54-4e8d-9dce-ee3364f101ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\19. PosChange">
+      <UniqueIdentifier>{8e718925-d3fd-4ca6-94f6-31344a751b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\07. LightObject">
+      <UniqueIdentifier>{60a5e470-acdb-42c3-9fa0-3ee3af051628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\99. Global\03. CameraSpace">
+      <UniqueIdentifier>{ef7d9c92-d202-4000-b1e3-aa9eedd1d568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\01. Chess\00. Escape_Shuttle">
+      <UniqueIdentifier>{04d7ba54-b8a9-4ef2-a08f-6747a7aed683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\08. Earth">
+      <UniqueIdentifier>{239ca9b9-b961-40c4-99cb-6b070bc38f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\01. Chess\01  Escape_ShuttleRamp">
+      <UniqueIdentifier>{08be3a40-df50-48c9-a82b-506bdc9d461e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\01. Chess\02. CrusherStartDoor">
+      <UniqueIdentifier>{762680a9-4ec6-4a6f-a87e-1c0805201ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\01. Chess\03. ChessBossDoor">
+      <UniqueIdentifier>{c0da5242-b5ae-4c65-a78e-920c84a0b426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\20. BattetyBox">
+      <UniqueIdentifier>{425a666b-d5b6-4015-b666-e8ad626864f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\99. Global\05. SoundSpace">
+      <UniqueIdentifier>{83375fdd-632f-42af-a4ec-f7477344f67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\01. Environment\09. SpaceGenerator">
+      <UniqueIdentifier>{5ed48bef-a60c-4c41-9130-2e33aa4e1c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\11. Ending">
+      <UniqueIdentifier>{2eee5be2-a4eb-4bc8-bf91-e50609a8245e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Map\02. InteractObject\02. Space\21. SpaceRing">
+      <UniqueIdentifier>{ab2f95d5-e5d6-4947-a6d0-79884fc3d8e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Main.h">
+      <Filter>00. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Client_Include.h">
+      <Filter>05. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Client_Define.h">
+      <Filter>05. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Loading.h">
+      <Filter>01. Scene\00. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Logo.h">
+      <Filter>01. Scene\01. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LogoBack.h">
+      <Filter>01. Scene\01. Logo\LogoBack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkyBox.h">
+      <Filter>02. GameObject\01. Map\01. Environment\01. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Navi.h">
+      <Filter>02. GameObject\00. Character\05. Etc\00. Navi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI.h">
+      <Filter>02. GameObject\03. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BubbleUI.h">
+      <Filter>02. GameObject\03. UI\00. Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FadeUI.h">
+      <Filter>02. GameObject\03. UI\01. Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CodyCamera.h">
+      <Filter>02. GameObject\02. Camera\00. MainCamera\CodyCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\May.h">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum\00. May</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MayCamera.h">
+      <Filter>02. GameObject\02. Camera\00. MainCamera\MayCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainCamera.h">
+      <Filter>02. GameObject\02. Camera\00. MainCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticObject.h">
+      <Filter>02. GameObject\01. Map\01. Environment\02. StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\May_Castle.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cody_Wizard.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CodyWizard_Enum.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="MayCastle_Enum.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CodyWizard_Animation.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\CodyWizard_Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Knight.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\00. Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MorningStar.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\00. Knight\00. MorningStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Mage.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\01. Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sheilder.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\02. Sheilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Arbalist.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\03. Arbalist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sheild.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\02. Sheilder\00. Sheild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CrossBow.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\03. Arbalist\00. CrossBow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Arrow.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\03. Arbalist\01. Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToySword.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Staff.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\01. Mage\00.Staff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\IceBullet.h">
+      <Filter>02. GameObject\00. Character\01. Enemy\01. Mage\01. IceBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessKing.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\00. King</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessQueen.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\01. Queen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessKnight.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\05. Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessTile.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\99. ChessTile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessPawn.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\03. Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PawnBullet.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\03. Pawn\00.PawnBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessBishop.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BiShopMoveBullet.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop\00 BishopMoveBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BiShopStopBullet.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop\01. BishopStopBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MayCastle_Animation.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle\MayCastle_Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessRook.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\04. Rook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RookMoveBullet.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\04. Rook\00.RookMoveBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RookStopBullet.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\04. Rook\01.RookStopBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Orb.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessField.h">
+      <Filter>01. Scene\05. Chess Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessBoss.h">
+      <Filter>01. Scene\06. Chess Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Vacuum.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumBomb.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\00. Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumMine.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\01. Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumCircle.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\02. Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumStone.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\03. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="VacuumFieldPart.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\00. Part1</Filter>
+    </ClInclude>
+    <ClInclude Include="VacuumFieldPart2.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\01. Part2</Filter>
+    </ClInclude>
+    <ClInclude Include="VacuumFieldPart3.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\02. Part3</Filter>
+    </ClInclude>
+    <ClInclude Include="VacuumFieldPart4.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\03. Part4</Filter>
+    </ClInclude>
+    <ClInclude Include="VacuumFieldPart5.h">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\04. Part5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TestWall.h">
+      <Filter>02. GameObject\01. Map\99. TestWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FireSwordEffect.h">
+      <Filter>06. Effect\00. Fire\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FireSwirl.h">
+      <Filter>06. Effect\00. Fire\Swirl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MiniVacuum.h" />
+    <ClInclude Include="..\Code\Map.h">
+      <Filter>02. GameObject\01. Map\00. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Torch.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FadeUI.h" />
+    <ClInclude Include="..\Code\MenuPlayerSelect.h">
+      <Filter>01. Scene\02. Menu\02. MenuPlayerSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MenuSelect.h">
+      <Filter>01. Scene\02. Menu\00. MenuSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ImageUI.h">
+      <Filter>02. GameObject\03. UI\01. ImageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MiniVacuum.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. MiniVacuum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CollisionMgr.h">
+      <Filter>05. Header\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MenuUI.h">
+      <Filter>02. GameObject\03. UI\02. MenuUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Menu.h">
+      <Filter>01. Scene\02. Menu\01. Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RoseSelect.h">
+      <Filter>02. GameObject\05. Logo, Menu\00. RoseSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CodyDoll.h">
+      <Filter>02. GameObject\05. Logo, Menu\01. CodyDoll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MayDoll.h">
+      <Filter>02. GameObject\05. Logo, Menu\02. MayDoll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RoseSelectRight.h">
+      <Filter>02. GameObject\05. Logo, Menu\00. RoseSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ControllerCallback.h">
+      <Filter>02. GameObject\00. Character\99. ControllerCallback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MiniVacuum.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. MiniVacuum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Trigger.h">
+      <Filter>03. Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Blow.h">
+      <Filter>06. Effect\01. Blow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ogre.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\OgreStartDoor.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\00. StartDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TestField.h">
+      <Filter>01. Scene\99. Test Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Client_Function.h">
+      <Filter>05. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ogre.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\OgreStone.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\01. OgreStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CenterHatch.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\03. CenterHatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FuseNPC.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\00. Fuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FuseBox.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\01. FuseBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FuseStatic.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\00. Fuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DeadSpace.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\00. DeadSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TestCol.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\04. TestCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\OgreChain.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\02. Chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PowerSwitch.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\03. HangLever\00. PowerSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Lever.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\03. Lever</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessOpenDoor.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\00. Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessTrab.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\01. Trab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessRail.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\01. Trab\00. Rail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessDoorSwitch.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\02. Button\00. DoorSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessDoorSwitchFrame.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\02. Button\01. DoorSwitchFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FuseLight.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\02. FuseLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Fan.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumField.h">
+      <Filter>01. Scene\03. Vacuum Field\01.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumBoss.h">
+      <Filter>01. Scene\04. Vacuum Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumField2.h">
+      <Filter>01. Scene\03. Vacuum Field\02.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumField3.h">
+      <Filter>01. Scene\03. Vacuum Field\03.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessBridge.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\03. Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FanHolder.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan\FanHolder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cody.h">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum\01. Cody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Enermy.h">
+      <Filter>02. GameObject\00. Character\01. Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CrusherBridgeHolder.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\00. BridgeHolder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CrusherBridgeBase.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\01. BridgeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CrusherBridge.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\02. Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CrusherHitPoint.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\03. HitPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CrusherBreakWall.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\04. BreakWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Crusher.h">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\07. Crusher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumCrusher.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan\Crusher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumBigFan.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\05. BigFan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AirFlowMeter.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\06. Airflowmeter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayerValue.h">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumToolBox.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\07. ToolBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayerValue.h">
+      <Filter>02. GameObject\00. Character\00. Player\00. Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PowerButton.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\11. PowerButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneChangeSpace.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\02. ScenechangeSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessDuoDoor.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\00. Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CameraSpace.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\03. CameraSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HubPlatform.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\08. HubPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BandSaw.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\09. BandSaw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SaveSpace.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\01. SaveSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Dumbbell.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\10. Dumbbell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WallSlideCylinder.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\11. WallSlideCylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WallSlideCylinderSurface.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\11. WallSlideCylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticHoze.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\12. StaticHoze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MiniVacuumHub.h">
+      <Filter>02. GameObject\01. Map\01. Environment\03. VacuumHub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DoubleHoze.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\13. SceneChangeHoze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumHeadHoze.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\14. VacuumHeadHoze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Nozzle.h">
+      <Filter>02. GameObject\01. Map\01. Environment\04. Nozzle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BoundingBox.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\99. TestBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cogs.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\15. GrindStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GrindStone.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\15. GrindStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GrindStone.h" />
+    <ClInclude Include="..\Code\VacuumHub.h">
+      <Filter>02. GameObject\01. Map\01. Environment\03. VacuumHub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CodyWizard_IceOrbAtt.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\IceOrbAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CodyWizard_IceOrbAttRB.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\IceOrbAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SmallFan.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel\SmallFan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ValveHandle.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\17. Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ValveBase.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\17. Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cone.h">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\Ult</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceField.h">
+      <Filter>01. Scene\07. Space Field\01.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceField2.h">
+      <Filter>01. Scene\07. Space Field\02.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceBoss.h">
+      <Filter>01. Scene\10. Space Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceField3.h">
+      <Filter>01. Scene\07. Space Field\03.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FerrisWheelBody.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FerrisWheelModule.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cody_Space.h">
+      <Filter>02. GameObject\00. Character\00. Player\01. Space\00. Cody_Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cody_Space_AnimEnum.h">
+      <Filter>02. GameObject\00. Character\00. Player\01. Space\00. Cody_Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\May_Space.h">
+      <Filter>02. GameObject\00. Character\00. Player\01. Space\01. May_Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\May_Space_AnimEnum.h">
+      <Filter>02. GameObject\00. Character\00. Player\01. Space\01. May_Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FanButton.h" />
+    <ClInclude Include="..\Code\SpaceBaboon.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BaboonMissile.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\00. Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BaboonLaser.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\01. Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GravityFloor.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\00. GravityFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CircleSaw.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\18. CircleSaw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Pedestal.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\18. CircleSaw\Pedestal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cord.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\19. Cord\Cord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BigPlug.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\19. Cord\BigPlug</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMove.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\98. Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BaboonBomb.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\02. Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BaboonHitPoint.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\02. Space\00. Boss\00.HitPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BaboonGround.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\02. Space\00. Boss\01.Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VacuumGenerator.h">
+      <Filter>02. GameObject\01. Map\01. Environment\05. VacuumGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CodyAnimEnum.h">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum\01. Cody\CodyAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TriggerView.h" />
+    <ClInclude Include="..\Code\MayAnimEnum.h">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum\00. May\MayAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceLaser.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\04. Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WindLaser.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\03. WindLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LaserMirror.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\05. LaserMirror</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LineObject.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\00. Vacuum\00. LineObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MiniVacuumHead.h">
+      <Filter>02. GameObject\01. Map\01. Environment\03. VacuumHub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpacePowerButton.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\01. PowerButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceBridge.h">
+      <Filter>02. GameObject\01. Map\03. MapObject\02. Space\01. Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GroundBounce.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\02. GroundBounce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceCup.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\03. SpaceCup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceWall.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\04. SpaceWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpacePlatform.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\05. SpacePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceValve.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\06. SpaceValve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceValveSpring.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\07. Spring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GroundBouncePanel.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\08. GoundBouncePanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cog.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\09. Cog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceTube.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\10. SpaceTube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GeneratorBattery.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\15. Generator\00. Battery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GeneratorLever.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\15. Generator\01. Lever</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpacePlatformWall.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\05. SpacePlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceSeesaw.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\11. SpaceSeesaw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceSpringBoard.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\12. SpaceSpringBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceSpringBoardSpring.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\12. SpaceSpringBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GroundPoundBox.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\13. SpaceGravityBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GroundPoundButton.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\13. SpaceGravityBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceLever.h" />
+    <ClInclude Include="..\Code\WarpGateStar.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\16. WarpGateStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceLever.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\12. SpaceLever</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HangDoor.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\17. HangDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TeleportSpace.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\04. TeleportSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RobotHead.h">
+      <Filter>02. GameObject\01. Map\01. Environment\06. RobotHead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceGlassBox.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\18. SpaceMoveBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceGlassHandle.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\18. SpaceMoveBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PosChange.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\19. PosChange</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LightObject.h">
+      <Filter>02. GameObject\01. Map\01. Environment\07. LightObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Escape_Shuttle.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\01. Chess\00. Escape_Shuttle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Escape_ShuttleRamp.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\01. Chess\01  Escape_ShuttleRamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Earth.h">
+      <Filter>02. GameObject\01. Map\01. Environment\08. Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CrusherStartDoor.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\01. Chess\02. CrusherStartDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ChessBossDoor.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\01. Chess\03. ChessBossDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BatteryBox.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\20. BattetyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BaboonBombBullet.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\02. Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BaboonBombUpBullet.h">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\02. Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SoundSpace.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\05. SoundSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceGenerator.h">
+      <Filter>02. GameObject\01. Map\01. Environment\09. SpaceGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ending.h">
+      <Filter>01. Scene\11. Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SpaceRing.h">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\21. SpaceRing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Main.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>01. Scene\00. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>01. Scene\01. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoBack.cpp">
+      <Filter>01. Scene\01. Logo\LogoBack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\01. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Navi.cpp">
+      <Filter>02. GameObject\00. Character\05. Etc\00. Navi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI.cpp">
+      <Filter>02. GameObject\03. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CodyCamera.cpp">
+      <Filter>02. GameObject\02. Camera\00. MainCamera\CodyCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\May.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum\00. May</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MayCamera.cpp">
+      <Filter>02. GameObject\02. Camera\00. MainCamera\MayCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainCamera.cpp">
+      <Filter>02. GameObject\02. Camera\00. MainCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MayAnimation.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum\00. May\MayAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticObject.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\02. StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\May_Castle.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cody_Wizard.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CodyWizard_Animation.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\CodyWizard_Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Knight.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\00. Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MorningStar.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\00. Knight\00. MorningStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mage.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\01. Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sheilder.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\02. Sheilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Arbalist.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\03. Arbalist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sheild.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\02. Sheilder\00. Sheild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrossBow.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\03. Arbalist\00. CrossBow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Arrow.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\03. Arbalist\01. Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToySword.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CodyAnimation.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum\01. Cody\CodyAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Staff.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\01. Mage\00.Staff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IceBullet.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy\01. Mage\01. IceBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessKing.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\00. King</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessQueen.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\01. Queen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessKnight.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\05. Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessTile.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\99. ChessTile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessPawn.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\03. Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PawnBullet.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\03. Pawn\00.PawnBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessBishop.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BiShopMoveBullet.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop\00 BishopMoveBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BiShopStopBullet.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\02. Bishop\01. BishopStopBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MayCastle_Animation.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\01. May_Castle\MayCastle_Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessRook.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\04. Rook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RookMoveBullet.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\04. Rook\00.RookMoveBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RookStopBullet.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\04. Rook\01.RookStopBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Orb.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessField.cpp">
+      <Filter>01. Scene\05. Chess Field</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessBoss.cpp">
+      <Filter>01. Scene\06. Chess Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Vacuum.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumBomb.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\00. Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumMine.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\01. Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumCircle.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\02. Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumStone.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\03. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="VacuumFieldPart.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\00. Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="VacuumFieldPart2.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\01. Part2</Filter>
+    </ClCompile>
+    <ClCompile Include="VacuumFieldPart3.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\02. Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="VacuumFieldPart4.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\03. Part4</Filter>
+    </ClCompile>
+    <ClCompile Include="VacuumFieldPart5.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\00. Vacuum\04. VacuumFieldPart\04. Part5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TestWall.cpp">
+      <Filter>02. GameObject\01. Map\99. TestWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FireSwordEffect.cpp">
+      <Filter>06. Effect\00. Fire\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FireSwirl.cpp">
+      <Filter>06. Effect\00. Fire\Swirl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MiniVacuum.cpp">
+      <Filter>98. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Map.cpp">
+      <Filter>02. GameObject\01. Map\00. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Torch.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MenuPlayerSelect.cpp">
+      <Filter>01. Scene\02. Menu\02. MenuPlayerSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MenuSelect.cpp">
+      <Filter>01. Scene\02. Menu\00. MenuSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ImageUI.cpp">
+      <Filter>02. GameObject\03. UI\01. ImageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MiniVacuum.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. MiniVacuum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CollisionMgr.cpp">
+      <Filter>05. Header\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MenuUI.cpp">
+      <Filter>02. GameObject\03. UI\02. MenuUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Menu.cpp">
+      <Filter>01. Scene\02. Menu\01. Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoseSelect.cpp">
+      <Filter>02. GameObject\05. Logo, Menu\00. RoseSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CodyDoll.cpp">
+      <Filter>02. GameObject\05. Logo, Menu\01. CodyDoll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MayDoll.cpp">
+      <Filter>02. GameObject\05. Logo, Menu\02. MayDoll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoseSelectRight.cpp">
+      <Filter>02. GameObject\05. Logo, Menu\00. RoseSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MiniVacuum.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. MiniVacuum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Trigger.cpp">
+      <Filter>03. Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ogre.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\OgreStartDoor.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\00. StartDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Blow.cpp">
+      <Filter>06. Effect\01. Blow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TestField.cpp">
+      <Filter>01. Scene\99. Test Field</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\OgreStone.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\01. OgreStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CenterHatch.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\03. CenterHatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FuseNPC.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\00. Fuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FuseBox.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\01. FuseBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FuseStatic.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\00. Fuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DeadSpace.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\00. DeadSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TestCol.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\04. TestCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\OgreChain.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\06. Ogre\02. Chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PowerSwitch.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\03. HangLever\00. PowerSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Lever.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\03. Lever</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessOpenDoor.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\00. Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessTrab.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\01. Trab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessRail.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\01. Trab\00. Rail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessDoorSwitch.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\02. Button\00. DoorSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessDoorSwitchFrame.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\02. Button\01. DoorSwitchFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FuseLight.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\02. FuseLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Fan.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumField.cpp">
+      <Filter>01. Scene\03. Vacuum Field\01.</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumBoss.cpp">
+      <Filter>01. Scene\04. Vacuum Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumField2.cpp">
+      <Filter>01. Scene\03. Vacuum Field\02.</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumField3.cpp">
+      <Filter>01. Scene\03. Vacuum Field\03.</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessBridge.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\03. Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FanHolder.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan\FanHolder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cody.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum\01. Cody</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Enermy.cpp">
+      <Filter>02. GameObject\00. Character\01. Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrusherBridgeHolder.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\00. BridgeHolder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrusherBridgeBase.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\01. BridgeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrusherBridge.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\02. Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrusherHitPoint.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\03. HitPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrusherBreakWall.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\04. Crusher\04. BreakWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Crusher.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\01. Chess\07. Crusher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumCrusher.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\04. Fan\Crusher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumBigFan.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\05. BigFan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AirFlowMeter.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\06. Airflowmeter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerValue.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\00. Vacuum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumToolBox.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\07. ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerValue.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\00. Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PowerButton.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\11. PowerButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneChangeSpace.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\02. ScenechangeSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessDuoDoor.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\01. Chess\00. Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CameraSpace.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\03. CameraSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HubPlatform.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\08. HubPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BandSaw.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\09. BandSaw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SaveSpace.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\01. SaveSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Dumbbell.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\10. Dumbbell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallSlideCylinderSurface.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\11. WallSlideCylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallSlideCylinder.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\11. WallSlideCylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticHoze.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\12. StaticHoze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MiniVacuumHub.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\03. VacuumHub</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DoubleHoze.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\13. SceneChangeHoze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumHeadHoze.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\14. VacuumHeadHoze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Nozzle.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\04. Nozzle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GrindStone.cpp">
+      <Filter>98. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CodyWizard_IceOrbAtt.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\IceOrbAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CodyWizard_IceOrbAttRB.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\IceOrbAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BoundingBox.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\99. TestBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cogs.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\15. GrindStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GrindStone.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\15. GrindStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GrindStone.cpp">
+      <Filter>98. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumHub.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\03. VacuumHub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cogs.cpp">
+      <Filter>98. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SmallFan.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel\SmallFan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ValveHandle.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\17. Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ValveBase.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\17. Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cone.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\02. Chess\00. Cody_Wizard\Ult</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceField.cpp">
+      <Filter>01. Scene\07. Space Field\01.</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceField2.cpp">
+      <Filter>01. Scene\07. Space Field\02.</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceBoss.cpp">
+      <Filter>01. Scene\10. Space Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceField3.cpp">
+      <Filter>01. Scene\07. Space Field\03.</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FerrisWheelBody.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FerrisWheelModule.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\16. FerrisWheel\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cody_Space.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\01. Space\00. Cody_Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cody_Space_Animation.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\01. Space\00. Cody_Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\May_Space.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\01. Space\01. May_Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\May_Space_Animation.cpp">
+      <Filter>02. GameObject\00. Character\00. Player\01. Space\01. May_Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FanButton.cpp">
+      <Filter>98. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceBaboon.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BaboonMissile.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\00. Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BaboonLaser.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\01. Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GravityFloor.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\00. GravityFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CircleSaw.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\18. CircleSaw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Pedestal.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\18. CircleSaw\Pedestal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cord.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\19. Cord\Cord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BigPlug.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\19. Cord\BigPlug</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMove.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\00. Shed\98. Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BaboonBomb.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\02. Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BaboonHitPoint.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\02. Space\00. Boss\00.HitPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BaboonGround.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\02. Space\00. Boss\01.Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VacuumGenerator.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\05. VacuumGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TriggerView.cpp">
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceLaser.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\04. Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WindLaser.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\03. WindLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LaserMirror.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\05. LaserMirror</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LineObject.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\00. Vacuum\00. LineObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MiniVacuumHead.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\03. VacuumHub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpacePowerButton.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\01. PowerButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceBridge.cpp">
+      <Filter>02. GameObject\01. Map\03. MapObject\02. Space\01. Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GroundBounce.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\02. GroundBounce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceCup.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\03. SpaceCup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceWall.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\04. SpaceWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpacePlatform.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\05. SpacePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceValve.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\06. SpaceValve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceValveSpring.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\07. Spring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GroundBouncePanel.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\08. GoundBouncePanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cog.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\09. Cog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceTube.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\10. SpaceTube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GeneratorBattery.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\15. Generator\00. Battery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GeneratorLever.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\15. Generator\01. Lever</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpacePlatformWall.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\05. SpacePlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceSeesaw.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\11. SpaceSeesaw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceSpringBoard.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\12. SpaceSpringBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceSpringBoardSpring.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\12. SpaceSpringBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceLever.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\12. SpaceLever</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GroundPoundBox.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\13. SpaceGravityBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GroundPoundButton.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\13. SpaceGravityBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WarpGateStar.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\16. WarpGateStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HangDoor.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\17. HangDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TeleportSpace.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\04. TeleportSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RobotHead.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\06. RobotHead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceGlassBox.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\18. SpaceMoveBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceGlassHandle.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\18. SpaceMoveBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PosChange.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\19. PosChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightObject.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\07. LightObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Escape_Shuttle.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\01. Chess\00. Escape_Shuttle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Escape_ShuttleRamp.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\01. Chess\01  Escape_ShuttleRamp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Earth.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\08. Earth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrusherStartDoor.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\01. Chess\02. CrusherStartDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ChessBossDoor.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\01. Chess\03. ChessBossDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BatteryBox.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\20. BattetyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="BaboonBombBullet.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\02. Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BaboonBombUpBullet.cpp">
+      <Filter>02. GameObject\00. Character\02. Boss\02. Space\02. Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundSpace.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\99. Global\05. SoundSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceGenerator.cpp">
+      <Filter>02. GameObject\01. Map\01. Environment\09. SpaceGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ending.cpp">
+      <Filter>01. Scene\11. Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpaceRing.cpp">
+      <Filter>02. GameObject\01. Map\02. InteractObject\02. Space\21. SpaceRing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Etc</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Etc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Etc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Etc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

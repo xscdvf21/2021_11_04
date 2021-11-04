@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. GraphicDevice">
+      <UniqueIdentifier>{089dcf5b-fb48-4224-925d-51f0564d9218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Timer">
+      <UniqueIdentifier>{2debfacf-c69c-4d5a-9f68-3b58d3dd9210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Frame">
+      <UniqueIdentifier>{90866288-1aad-49cc-8e1b-3a06a379d0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Frame\Manager">
+      <UniqueIdentifier>{b85f64c7-3aa8-4116-9790-cc1ac9bc4670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Timer\TimeMgr">
+      <UniqueIdentifier>{6a2f3171-26d6-4f3b-9ae8-2b147e533520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Sound">
+      <UniqueIdentifier>{f40643dd-bfda-4829-a374-17f981654bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. DInput">
+      <UniqueIdentifier>{2238ce22-947f-4efc-9c68-3058fe59944b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Export_System">
+      <UniqueIdentifier>{35158f6f-ad20-4f04-b889-9af759ba7186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Font">
+      <UniqueIdentifier>{73871b20-e454-4ba9-ad77-9609e2f7e6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Font\Manager">
+      <UniqueIdentifier>{560812b2-7445-4fb7-bfee-46bbb315fbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. PhysX">
+      <UniqueIdentifier>{856e4cb2-6c38-43f4-ba71-486435352d9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\GraphicDevice.h">
+      <Filter>00. GraphicDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Timer.h">
+      <Filter>01. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Frame.h">
+      <Filter>02. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TimerMgr.h">
+      <Filter>01. Timer\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FrameMgr.h">
+      <Filter>02. Frame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Export_System.h">
+      <Filter>10. Export_System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\InputDev.h">
+      <Filter>04. DInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Font.h">
+      <Filter>06. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FontMgr.h">
+      <Filter>06. Font\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SoundMgr.h">
+      <Filter>05. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Phys_Manager.h">
+      <Filter>07. PhysX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\GraphicDevice.cpp">
+      <Filter>00. GraphicDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Timer.cpp">
+      <Filter>01. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Frame.cpp">
+      <Filter>02. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TimerMgr.cpp">
+      <Filter>01. Timer\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FrameMgr.cpp">
+      <Filter>02. Frame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\InputDev.cpp">
+      <Filter>04. DInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Font.cpp">
+      <Filter>06. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FontMgr.cpp">
+      <Filter>06. Font\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundMgr.cpp">
+      <Filter>05. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Phys_Manager.cpp">
+      <Filter>07. PhysX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Header\Export_System.inl">
+      <Filter>10. Export_System</Filter>
+    </None>
+  </ItemGroup>
+</Project>

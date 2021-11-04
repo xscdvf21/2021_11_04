@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Tool">
+      <UniqueIdentifier>{c29c9d5c-9f01-4848-98c8-acc5c1d83eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object">
+      <UniqueIdentifier>{aceff984-645d-452b-a8d3-987fb5e4ce4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc">
+      <UniqueIdentifier>{ea9db434-0cf5-49ce-8bc6-532e6f21b894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. Tool\00. View">
+      <UniqueIdentifier>{eac74c2e-f8cc-4b23-94b5-b2150548a2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Tool\00. View\00. MyFormView">
+      <UniqueIdentifier>{a219f0d2-fbba-417e-b5cb-d37e87c15e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Tool\00. View\01. ToolView">
+      <UniqueIdentifier>{5779ae39-c5db-467a-b9c7-1ba5d9b0808e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Tool\01. MainFrame">
+      <UniqueIdentifier>{0b522946-9d1b-4be3-b0d6-239d20f21470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Tool\00. View\00. MyFormView\00. CharacterTool">
+      <UniqueIdentifier>{4d6589fe-0466-439b-a1e4-13f12cfeeb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Tool\00. View\00. MyFormView\01. MapTool">
+      <UniqueIdentifier>{618a9ac6-45b4-43a7-a57a-768a9e69f1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\00. ToolTerrain">
+      <UniqueIdentifier>{2edfd90c-02d8-4817-9602-35523bac0eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\01. ToolCamera">
+      <UniqueIdentifier>{52479fc1-7dfd-48b8-ba87-bdd97fe1f049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. ToolObject">
+      <UniqueIdentifier>{fb5ba4c6-f395-4c7b-8c78-4b6d6dc4a0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Tool\00. View\00. MyFormView\FileInfo">
+      <UniqueIdentifier>{cf781991-58f4-43d3-a48d-28cc5dc6d2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Tool\00. View\00. MyFormView\02. NaviMeshTool">
+      <UniqueIdentifier>{a63a1c19-96a3-4f36-85c8-9ac5b266e78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\03. ToolNavi">
+      <UniqueIdentifier>{40f889c7-4a4a-45af-8796-14f092fee3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Tool\00. View\00. MyFormView\03.PhyXNaviTool">
+      <UniqueIdentifier>{28593a2a-230d-4d67-8da8-e254c990df50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04.PhysCell">
+      <UniqueIdentifier>{8a1ce751-cbb5-4d04-b4dd-a81d36eadec0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>00. Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00. Tool\01. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>00. Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormView.h">
+      <Filter>00. Tool\00. View\00. MyFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>00. Tool\00. View\00. MyFormView\01. MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterTool.h">
+      <Filter>00. Tool\00. View\00. MyFormView\00. CharacterTool</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>00. Tool\00. View\01. ToolView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolTerrain.h">
+      <Filter>01. Object\00. ToolTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolCamera.h">
+      <Filter>01. Object\01. ToolCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>00. Tool\00. View\00. MyFormView\FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolObject.h">
+      <Filter>01. Object\02. ToolObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviMeshTool.h">
+      <Filter>00. Tool\00. View\00. MyFormView\02. NaviMeshTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolNavi.h">
+      <Filter>01. Object\03. ToolNavi</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyXNaviTool.h">
+      <Filter>00. Tool\00. View\00. MyFormView\03.PhyXNaviTool</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysCell.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00. Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00. Tool\01. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>99. Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>00. Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormView.cpp">
+      <Filter>00. Tool\00. View\00. MyFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>00. Tool\00. View\00. MyFormView\01. MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterTool.cpp">
+      <Filter>00. Tool\00. View\00. MyFormView\00. CharacterTool</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>00. Tool\00. View\01. ToolView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolTerrain.cpp">
+      <Filter>01. Object\00. ToolTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolCamera.cpp">
+      <Filter>01. Object\01. ToolCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>00. Tool\00. View\00. MyFormView\FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolObject.cpp">
+      <Filter>01. Object\02. ToolObject</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviMeshTool.cpp">
+      <Filter>00. Tool\00. View\00. MyFormView\02. NaviMeshTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolNavi.cpp">
+      <Filter>01. Object\03. ToolNavi</Filter>
+    </ClCompile>
+    <ClCompile Include="PhyXNaviTool.cpp">
+      <Filter>00. Tool\00. View\00. MyFormView\03.PhyXNaviTool</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysCell.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Etc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

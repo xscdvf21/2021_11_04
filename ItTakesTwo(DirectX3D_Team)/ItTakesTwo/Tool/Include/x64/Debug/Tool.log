@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  ToolView.cpp
+  ToolDoc.cpp
+  Tool.cpp
+  NaviMeshTool.cpp
+  MyFormView.cpp
+  MapTool.cpp
+  MainFrm.cpp
+  FileInfo.cpp
+  CharacterTool.cpp
+  ToolTerrain.cpp
+  ToolObject.cpp
+  ToolNavi.cpp
+  ToolCamera.cpp
+  코드를 생성하고 있습니다...
+     ../Bin\Tool.lib 라이브러리 및 ../Bin\Tool.exp 개체를 생성하고 있습니다.
+  Tool.vcxproj -> C:\Users\jdy\Desktop\LastTeamportfolio\ItTakesTwo\Tool\Include\../Bin\Tool.exe
+  Tool.vcxproj -> ../Bin\Tool.pdb (Partial PDB)
