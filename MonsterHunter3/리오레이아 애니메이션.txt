@@ -1,0 +1,74 @@
+00 Three_Fire 
+01 Die
+02 Sult_Pre
+03 Walk_Fly_Start
+04 Fire_Three
+05 Sult
+06 Descent_Lend
+07 Lend_End2
+08 Fly_Lend2
+09 Fly_Swing
+10 Die_Start
+11 Paral_End
+12 Tail_Cut
+13 Paral
+14 Fly_FallDown_End
+15 Fly_FallDown_Start
+16 Right_Fall_Down_ToStand
+17 Left_Fall_Down_ToStand
+18 Right_Fall_Down_Ing
+19 Left_Fall_Down_Ing
+20 Right_Fall_Down
+21 Fall_Down
+22 Strike_Head
+23 Hit_Head
+24 Rend_End
+
+
+25 Run_End_Fail
+26 Fly_Descent_Ing
+27 Fly_Descent
+28 Fly_Lend_Fail
+29 Fly_LegAttack
+
+
+30 공중에서 물어 뜯는듯?
+
+
+
+
+31 Fly_Bite
+32 Swing_Right
+33 Swing_Left
+34 Run_Bite
+35 Bite
+36 Fly_Long_Start
+37 Fly_Long_Stop
+38 Fly_Start2
+39 Fly_Start
+40 Fly_Right_Cog
+41 Fly_Left_Cog
+
+//
+42 Fly_Long
+43 Fly_Loar
+44 Fly
+45 Sleep_End
+46 Sleep
+47 Sleep_Start
+48 Eat_End
+49 Eat
+50 Find
+51 Growl
+52 Step
+53 Turn_Left_Rapid
+54 Turn_Right_Rapid
+55 Turn_Right
+56 Turn_Left
+57 Rush_End
+58 Rush
+59 Exhaust
+60 Walk
+61 Scream
+62 Cog
+63 Stand

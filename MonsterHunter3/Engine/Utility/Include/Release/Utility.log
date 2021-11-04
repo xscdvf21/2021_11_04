@@ -1,0 +1,27 @@
+﻿  Calculator.cpp
+  Camera.cpp
+  Collider.cpp
+..\Code\Collider.cpp(6): error C2614: 'Engine::CCollider': 멤버 초기화가 잘못되었습니다. 'm_pGraphicDev'이(가) 기본 또는 멤버가 아닙니다.
+..\Code\Collider.cpp(7): error C2065: 'm_pGraphicDev': 선언되지 않은 식별자입니다.
+..\Code\Collider.cpp(7): error C2227: '->AddRef' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  ..\Code\Collider.cpp(7): note: 'unknown-type' 형식입니다.
+..\Code\Collider.cpp(185): error C2065: 'm_pIB': 선언되지 않은 식별자입니다.
+..\Code\Collider.cpp(186): error C2065: 'm_pVB': 선언되지 않은 식별자입니다.
+..\Code\Collider.cpp(189): error C2065: 'm_pTexture': 선언되지 않은 식별자입니다.
+..\Code\Collider.cpp(189): error C2672: 'Engine::Safe_Release': 일치하는 오버로드된 함수가 없습니다.
+..\Code\Collider.cpp(191): error C2065: 'm_pGraphicDev': 선언되지 않은 식별자입니다.
+  CollisionMgr.cpp
+  Component.cpp
+  Frustum.cpp
+  GameObject.cpp
+  Layer.cpp
+..\Code\Layer.cpp(29): error C2065: 'OBJ_DEAD': 선언되지 않은 식별자입니다.
+  Light.cpp
+  LightMgr.cpp
+  Management.cpp
+  Optimization.cpp
+  ProtoMgr.cpp
+  QuadTree.cpp
+  Renderer.cpp
+  Scene.cpp
+  Transform.cpp

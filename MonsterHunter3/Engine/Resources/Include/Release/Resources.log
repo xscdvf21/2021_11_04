@@ -1,0 +1,59 @@
+﻿  AniCtrl.cpp
+  Cell.cpp
+  CubeTex.cpp
+  DynamicMesh.cpp
+  HierarchyLoader.cpp
+  Line.cpp
+  Mesh.cpp
+  NaviMesh.cpp
+  RcTex.cpp
+  Resources.cpp
+  ResourcesMgr.cpp
+  Sphere.cpp
+  StaticMesh.cpp
+..\Code\StaticMesh.cpp(105): warning C4244: '=': 'WORD'에서 'Engine::_ubyte'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TerrainTex.cpp
+  Texture.cpp
+  TriCol.cpp
+  VIBuffer.cpp
+     ../Bin\Resources.lib 라이브러리 및 ../Bin\Resources.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  All 976 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Resources.vcxproj -> C:\Users\Administrator\Desktop\0419_인벤토리 대충구현\Engine\Resources\Include\../Bin\Resources.dll
+  Resources.vcxproj -> ../Bin\Resources.pdb (Full PDB)
+  .\Engine\Resources\Code\AniCtrl.h
+  .\Engine\Resources\Code\Cell.h
+  .\Engine\Resources\Code\CubeTex.h
+  .\Engine\Resources\Code\DynamicMesh.h
+  .\Engine\Resources\Code\HierarchyLoader.h
+  .\Engine\Resources\Code\Line.h
+  .\Engine\Resources\Code\Mesh.h
+  .\Engine\Resources\Code\NaviMesh.h
+  .\Engine\Resources\Code\RcTex.h
+  .\Engine\Resources\Code\Resources.h
+  .\Engine\Resources\Code\ResourcesMgr.h
+  .\Engine\Resources\Code\Sphere.h
+  .\Engine\Resources\Code\StaticMesh.h
+  .\Engine\Resources\Code\TerrainTex.h
+  .\Engine\Resources\Code\Texture.h
+  .\Engine\Resources\Code\TriCol.h
+  .\Engine\Resources\Code\VIBuffer.h
+         17개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+  .\Engine\Header\Engine_Define.h
+  .\Engine\Header\Engine_Enum.h
+  .\Engine\Header\Engine_Function.h
+  .\Engine\Header\Engine_Macro.h
+  .\Engine\Header\Engine_Struct.h
+  .\Engine\Header\Engine_Typedef.h
+  .\Engine\Header\Export_Fucntion.h
+  .\Engine\Header\Export_Resources.h
+  .\Engine\Header\Export_System.h
+  .\Engine\Header\Export_Utility.h
+         10개 파일이 복사되었습니다.
+  .\Engine\Header\Export_Resources.inl
+  .\Engine\Header\Export_System.inl
+  .\Engine\Header\Export_Utility.inl
+          3개 파일이 복사되었습니다.
