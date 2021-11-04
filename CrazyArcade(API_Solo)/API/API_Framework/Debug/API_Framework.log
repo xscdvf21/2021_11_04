@@ -1,0 +1,71 @@
+﻿  stdafx.cpp
+  YellowHouseMgr.cpp
+  YellowHouse.cpp
+  YellowBlockMgr.cpp
+  YellowBlock.cpp
+  UpBullet.cpp
+  TreeMgr.cpp
+  Tree.cpp
+  TownBlockMgr.cpp
+  TownBlock.cpp
+  TileMgr.cpp
+  TileBlock.cpp
+  Tile.cpp
+  Stage2.cpp
+  Stage.cpp
+  SpeedItemMgr.cpp
+  SoundMgr.cpp
+  Shield.cpp
+  ScrollMgr.cpp
+  SceneMgr.cpp
+  Scene.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  RightBullet.cpp
+  RedHouseMgr.cpp
+  RedHouse.cpp
+  Player.cpp
+e:\쥬신아카데미 수업자료\api시연회\개인api\api_framework\player.cpp(362): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  PadoItemMgr.cpp
+  ObjMgr.cpp
+  Obj.cpp
+  MyMenu.cpp
+  MyEdit.cpp
+  MyButton.cpp
+  MyBitmap.cpp
+  Mouse.cpp
+  MonsterUp.cpp
+  MonsterRight.cpp
+  MonsterLeft.cpp
+  MonsterDown.cpp
+  MonsterBullet.cpp
+  Monster2.cpp
+  Monster.cpp
+  MainGame.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Logo.cpp
+  LineMgr.cpp
+  Line.cpp
+  LeftBullet.cpp
+  KeyMgr.cpp
+  Item.cpp
+  DownBullet.cpp
+  CollisionMgr.cpp
+  BushMgr.cpp
+  Bush.cpp
+  Bullet.cpp
+  BossMonster.cpp
+  BoomSizeItem.cpp
+  BoomItem.cpp
+  BoomCountMgr.cpp
+  BmpMgr.cpp
+  BlueHouseMgr.cpp
+  BlueHouse.cpp
+  BlockMgr.cpp
+  API_Framework.cpp
+  코드를 생성하고 있습니다...
+e:\쥬신아카데미 수업자료\api시연회\개인api\api_framework\collisionmgr.cpp(228): warning C4715: 'CCollisionMgr::Collision_PadoAndBlock2': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\쥬신아카데미 수업자료\api시연회\개인api\api_framework\collisionmgr.cpp(291): warning C4715: 'CCollisionMgr::Collision_PadoAndBlock2': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  API_Framework.vcxproj -> E:\쥬신아카데미 수업자료\APi시연회\개인APi\Debug\API_Framework.exe
+  API_Framework.vcxproj -> E:\쥬신아카데미 수업자료\APi시연회\개인APi\Debug\API_Framework.pdb (Full PDB)
