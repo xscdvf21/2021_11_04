@@ -1,0 +1,6 @@
+Reading config file C:\D2D½Ã¿¬È¸\12¿ù7ÀÏ\SuperRobot\Texture\snes9x_v1[1].51_win32_kr-newtype523/snes9x.cfg
+Saving	config file	C:\D2D½Ã¿¬È¸\12¿ù7ÀÏ\SuperRobot\Texture\snes9x_v1[1].51_win32_kr-newtype523/snes9x.cfg
+No ROM file header found.
+Map_LoROMMap
+"ÀÞ²3¼Þ½°Êß°ÛÎÞ¯ÄÀ²¾Ý" [bad checksum] LoROM, 16Mbits, Type: ROM+RAM+BAT, Mode: 20, TV: NTSC, S-RAM: 8KB, ROMId: M Ve Company: D9 CRC32: 2834650D
+Saving	config file	C:\D2D½Ã¿¬È¸\12¿ù7ÀÏ\SuperRobot\Texture\snes9x_v1[1].51_win32_kr-newtype523/snes9x.cfg

@@ -1,0 +1,27 @@
+﻿  stdafx.cpp
+  FileInfo.cpp
+FileInfo.cpp(33): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+FileInfo.cpp(36): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+FileInfo.cpp(95): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+FileInfo.cpp(98): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+  FilePathExtraction.cpp
+  Graphic_Device.cpp
+  MainFrm.cpp
+  MapTool.cpp
+MapTool.cpp(126): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MapTool.cpp(127): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MFormView.cpp
+  MiniView.cpp
+  Multi_Texture.cpp
+Multi_Texture.cpp(24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Single_Texture.cpp
+  Terrain.cpp
+Terrain.cpp(165): error C3861: 'assert': 식별자를 찾을 수 없습니다.
+Terrain.cpp(193): error C3861: 'assert': 식별자를 찾을 수 없습니다.
+  Texture.cpp
+  Texture_Manager.cpp
+  Tool.cpp
+  ToolDoc.cpp
+  ToolView.cpp
+ToolView.cpp(73): warning C4138: '*/'가 주석 외부에 있습니다.
+  UnitTool.cpp

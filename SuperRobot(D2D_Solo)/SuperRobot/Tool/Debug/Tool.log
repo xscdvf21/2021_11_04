@@ -1,0 +1,28 @@
+﻿  stdafx.cpp
+  UnitTool.cpp
+  ToolView.cpp
+c:\users\administrator.jusin-20180211k\documents\11월26일\superrobot\tool\toolview.cpp(73): warning C4138: '*/'가 주석 외부에 있습니다.
+  ToolDoc.cpp
+  Tool.cpp
+  Texture_Manager.cpp
+  Texture.cpp
+  Terrain.cpp
+  Single_Texture.cpp
+  Multi_Texture.cpp
+c:\users\administrator.jusin-20180211k\documents\11월26일\superrobot\tool\multi_texture.cpp(24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  MiniView.cpp
+  MFormView.cpp
+  MapTool.cpp
+c:\users\administrator.jusin-20180211k\documents\11월26일\superrobot\tool\maptool.cpp(126): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator.jusin-20180211k\documents\11월26일\superrobot\tool\maptool.cpp(127): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MainFrm.cpp
+  Graphic_Device.cpp
+  FilePathExtraction.cpp
+  FileInfo.cpp
+c:\users\administrator.jusin-20180211k\documents\11월26일\superrobot\tool\fileinfo.cpp(33): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\users\administrator.jusin-20180211k\documents\11월26일\superrobot\tool\fileinfo.cpp(36): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\users\administrator.jusin-20180211k\documents\11월26일\superrobot\tool\fileinfo.cpp(95): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\users\administrator.jusin-20180211k\documents\11월26일\superrobot\tool\fileinfo.cpp(98): warning C4800: 'BOOL': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+  코드를 생성하고 있습니다...
+  Tool.vcxproj -> C:\Users\Administrator.JUSIN-20180211K\Documents\11월26일\SuperRobot\Debug\Tool.exe
+  Tool.vcxproj -> C:\Users\Administrator.JUSIN-20180211K\Documents\11월26일\SuperRobot\Debug\Tool.pdb (Partial PDB)

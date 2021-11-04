@@ -1,0 +1,51 @@
+﻿  stdafx.cpp
+  Astar_manager.cpp
+  Background.cpp
+  Client.cpp
+  CollisionMgr.cpp
+CollisionMgr.cpp(96): warning C4554: '>>': 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+CollisionMgr.cpp(97): warning C4554: '>>': 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+CollisionMgr.cpp(114): warning C4554: '>>': 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+CollisionMgr.cpp(115): warning C4554: '>>': 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+  Frame_Manager.cpp
+  GameObject.cpp
+  GameObject_Manger.cpp
+  Graphic_Device.cpp
+  GunDamMK.cpp
+  Key_Manager.cpp
+  MainApp.cpp
+  MazingerZ.cpp
+  Monster1.cpp
+  Monster2.cpp
+  MousePointer.cpp
+  Multi_Texture.cpp
+  Scene.cpp
+  Scene_Manager.cpp
+  ScrollMgr.cpp
+  Scroll_Manager.cpp
+  컴파일하고 있습니다...
+  Single_Texture.cpp
+  SoundMgr.cpp
+  Stage.cpp
+  Stage2.cpp
+  Start.cpp
+  Texture.cpp
+  Texture_Manager.cpp
+  Tile.cpp
+  TileMgr.cpp
+  Time_Manager.cpp
+  UnitAttack.cpp
+  UnitFight.cpp
+  UnitInfo.cpp
+  UnitMenu.cpp
+  UnitWeapon.cpp
+  WeaponStore.cpp
+WeaponStore.cpp(89): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+WeaponStore.cpp(291): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다.
+  2118 of 2122 functions (99.8%) were compiled, the rest were copied from previous compilation.
+    13 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Client.vcxproj -> C:\D2D시연회\12월7일\SuperRobot\Release\Client.exe
+  Client.vcxproj -> C:\D2D시연회\12월7일\SuperRobot\Release\Client.pdb (Full PDB)
